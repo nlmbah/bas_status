@@ -1,0 +1,538 @@
+UID        PID  PPID  C STIME TTY          TIME CMD
+root         1     0  0 Aug08 ?        00:00:27 init [3]  
+root         2     0  0 Aug08 ?        00:00:00 [kthreadd]
+root         3     2  0 Aug08 ?        00:03:23 [ksoftirqd/0]
+root         6     2 99 Aug08 ?        11-01:40:51 [migration/0]
+root         7     2  0 Aug08 ?        00:00:01 [watchdog/0]
+root         8     2  0 Aug08 ?        00:00:00 [migration/1]
+root         9     2  0 Aug08 ?        00:05:57 [kworker/1:0]
+root        10     2  0 Aug08 ?        00:00:35 [ksoftirqd/1]
+root        12     2  0 Aug08 ?        00:00:01 [watchdog/1]
+root        13     2  0 Aug08 ?        00:00:00 [migration/2]
+root        14     2  0 Aug08 ?        00:04:18 [kworker/2:0]
+root        15     2  0 Aug08 ?        00:00:19 [ksoftirqd/2]
+root        16     2  0 Aug08 ?        00:00:01 [watchdog/2]
+root        17     2  0 Aug08 ?        00:00:00 [migration/3]
+root        18     2  0 Aug08 ?        00:06:41 [kworker/3:0]
+root        19     2  0 Aug08 ?        00:00:22 [ksoftirqd/3]
+root        20     2  0 Aug08 ?        00:00:01 [watchdog/3]
+root        21     2  0 Aug08 ?        00:00:00 [migration/4]
+root        22     2  0 Aug08 ?        00:04:29 [kworker/4:0]
+root        23     2  0 Aug08 ?        00:00:17 [ksoftirqd/4]
+root        24     2  0 Aug08 ?        00:00:07 [watchdog/4]
+root        25     2  0 Aug08 ?        00:00:00 [migration/5]
+root        26     2  0 Aug08 ?        00:03:42 [kworker/5:0]
+root        27     2  0 Aug08 ?        00:00:23 [ksoftirqd/5]
+root        28     2  0 Aug08 ?        00:00:01 [watchdog/5]
+root        29     2 50 Aug08 ?        5-15:59:43 [migration/6]
+root        31     2  0 Aug08 ?        00:01:10 [ksoftirqd/6]
+root        32     2  0 Aug08 ?        00:00:01 [watchdog/6]
+root        33     2  0 Aug08 ?        00:00:00 [migration/7]
+root        35     2  0 Aug08 ?        00:00:42 [ksoftirqd/7]
+root        36     2  0 Aug08 ?        00:00:01 [watchdog/7]
+root        37     2  0 Aug08 ?        00:00:00 [migration/8]
+root        38     2  0 Aug08 ?        00:07:25 [kworker/8:0]
+root        39     2  0 Aug08 ?        00:00:31 [ksoftirqd/8]
+root        40     2  0 Aug08 ?        00:00:01 [watchdog/8]
+root        41     2  0 Aug08 ?        00:00:00 [migration/9]
+root        42     2  0 Aug08 ?        00:06:49 [kworker/9:0]
+root        43     2  0 Aug08 ?        00:00:39 [ksoftirqd/9]
+root        44     2  0 Aug08 ?        00:00:01 [watchdog/9]
+root        45     2  0 Aug08 ?        00:00:00 [migration/10]
+root        46     2  0 Aug08 ?        00:03:39 [kworker/10:0]
+root        47     2  0 Aug08 ?        00:00:16 [ksoftirqd/10]
+root        48     2  0 Aug08 ?        00:00:01 [watchdog/10]
+root        49     2  0 Aug08 ?        00:00:00 [migration/11]
+root        50     2  0 Aug08 ?        00:04:11 [kworker/11:0]
+root        51     2  0 Aug08 ?        00:00:26 [ksoftirqd/11]
+root        52     2  0 Aug08 ?        00:00:01 [watchdog/11]
+root        53     2 37 Aug08 ?        4-04:09:17 [migration/12]
+root        54     2  0 Aug08 ?        00:02:18 [kworker/12:0]
+root        55     2  0 Aug08 ?        00:00:05 [ksoftirqd/12]
+root        56     2  0 Aug08 ?        00:00:07 [watchdog/12]
+root        57     2 96 Aug08 ?        10-18:11:28 [migration/13]
+root        58     2  0 Aug08 ?        00:03:01 [kworker/13:0]
+root        59     2  0 Aug08 ?        00:00:06 [ksoftirqd/13]
+root        60     2  0 Aug08 ?        00:00:06 [watchdog/13]
+root        61     2 90 Aug08 ?        10-02:12:48 [migration/14]
+root        62     2  0 Aug08 ?        00:02:15 [kworker/14:0]
+root        63     2  0 Aug08 ?        00:00:04 [ksoftirqd/14]
+root        64     2  0 Aug08 ?        00:00:04 [watchdog/14]
+root        65     2 82 Aug08 ?        9-03:37:05 [migration/15]
+root        67     2  0 Aug08 ?        00:00:20 [ksoftirqd/15]
+root        68     2  0 Aug08 ?        00:00:01 [watchdog/15]
+root        69     2 99 Aug08 ?        11-02:19:00 [migration/16]
+root        70     2  0 Aug08 ?        00:01:51 [kworker/16:0]
+root        71     2  0 Aug08 ?        00:00:03 [ksoftirqd/16]
+root        72     2  0 Aug08 ?        00:00:06 [watchdog/16]
+root        73     2 90 Aug08 ?        10-00:17:58 [migration/17]
+root        74     2  0 Aug08 ?        00:00:57 [kworker/17:0]
+root        75     2  0 Aug08 ?        00:00:04 [ksoftirqd/17]
+root        76     2  0 Aug08 ?        00:00:06 [watchdog/17]
+root        77     2 88 Aug08 ?        9-20:46:33 [migration/18]
+root        79     2  0 Aug08 ?        00:00:12 [ksoftirqd/18]
+root        80     2  0 Aug08 ?        00:00:01 [watchdog/18]
+root        81     2 98 Aug08 ?        10-23:41:00 [migration/19]
+root        83     2  0 Aug08 ?        00:00:20 [ksoftirqd/19]
+root        84     2  0 Aug08 ?        00:00:01 [watchdog/19]
+root        85     2 92 Aug08 ?        10-06:32:26 [migration/20]
+root        86     2  0 Aug08 ?        00:05:34 [kworker/20:0]
+root        87     2  0 Aug08 ?        00:00:24 [ksoftirqd/20]
+root        88     2  0 Aug08 ?        00:00:01 [watchdog/20]
+root        89     2 67 Aug08 ?        7-13:03:14 [migration/21]
+root        90     2  0 Aug08 ?        00:01:04 [kworker/21:0]
+root        91     2  0 Aug08 ?        00:00:07 [ksoftirqd/21]
+root        92     2  0 Aug08 ?        00:00:01 [watchdog/21]
+root        93     2  0 Aug08 ?        00:00:00 [migration/22]
+root        94     2  0 Aug08 ?        00:04:09 [kworker/22:0]
+root        95     2  0 Aug08 ?        00:00:37 [ksoftirqd/22]
+root        96     2  0 Aug08 ?        00:00:01 [watchdog/22]
+root        97     2 62 Aug08 ?        6-23:28:40 [migration/23]
+root        98     2  0 Aug08 ?        00:01:31 [kworker/23:0]
+root        99     2  0 Aug08 ?        00:00:07 [ksoftirqd/23]
+root       100     2  0 Aug08 ?        00:00:01 [watchdog/23]
+root       101     2  0 Aug08 ?        00:00:00 [cpuset]
+root       102     2  0 Aug08 ?        00:00:00 [khelper]
+root       103     2  0 Aug08 ?        00:00:00 [netns]
+root       104     2  0 Aug08 ?        00:00:02 [sync_supers]
+root       105     2  0 Aug08 ?        00:00:00 [bdi-default]
+root       106     2  0 Aug08 ?        00:00:00 [kintegrityd]
+root       107     2  0 Aug08 ?        00:00:00 [kblockd]
+root       108     2  0 Aug08 ?        00:00:00 [md]
+root       109     2  0 Aug08 ?        00:03:10 [kworker/15:1]
+root       110     2  0 Aug08 ?        00:00:00 [khungtaskd]
+root       111     2  0 Aug08 ?        00:00:00 [kswapd0]
+root       112     2  0 Aug08 ?        00:00:00 [kswapd1]
+root       113     2  0 Aug08 ?        00:00:00 [ksmd]
+root       114     2  0 Aug08 ?        00:00:08 [khugepaged]
+root       115     2  0 Aug08 ?        00:00:00 [fsnotify_mark]
+root       117     2  0 Aug08 ?        00:00:00 [crypto]
+root       119     2  0 Aug08 ?        00:00:00 [kthrotld]
+root       146     2  0 Aug08 ?        00:04:34 [kworker/3:1]
+root       147     2  0 Aug08 ?        00:00:00 [kpsmoused]
+root       150     2  0 Aug08 ?        00:08:19 [kworker/7:1]
+root       152     2  0 Aug08 ?        00:02:30 [kworker/14:1]
+root       175     2  0 Aug08 ?        00:03:09 [kworker/13:1]
+root       201     2  0 Aug08 ?        00:00:00 [scsi_eh_0]
+root       209     2  0 Aug08 ?        00:08:55 [kworker/8:1]
+root       210     2  0 Aug08 ?        00:07:27 [kworker/9:1]
+root       211     2  0 Aug08 ?        00:02:46 [kworker/20:1]
+root       212     2  0 Aug08 ?        00:02:47 [kworker/21:1]
+root       214     2  0 Aug08 ?        00:00:02 [lpfc_worker_0]
+root       216     2  0 Aug08 ?        00:06:29 [kworker/22:1]
+root       217     2  0 Aug08 ?        00:05:01 [kworker/10:1]
+root       218     2  0 Aug08 ?        00:04:18 [kworker/4:1]
+root       219     2  0 Aug08 ?        00:10:23 [kworker/11:1]
+root       220     2  0 Aug08 ?        00:02:42 [kworker/17:1]
+root       221     2  0 Aug08 ?        00:01:49 [kworker/23:1]
+root       222     2  0 Aug08 ?        00:05:55 [kworker/5:1]
+root       223     2  0 Aug08 ?        00:01:44 [kworker/16:1]
+root       224     2  0 Aug08 ?        00:02:37 [kworker/12:1]
+root       225     2  0 Aug08 ?        00:00:00 [scsi_eh_1]
+root       226     2  0 Aug08 ?        00:00:00 [scsi_wq_1]
+root       228     2  0 Aug08 ?        00:00:02 [lpfc_worker_1]
+root       229     2  0 Aug08 ?        00:00:00 [scsi_eh_2]
+root       230     2  0 Aug08 ?        00:00:00 [scsi_wq_2]
+root       271     2  0 Aug08 ?        00:03:57 [kworker/15:2]
+root       279     2  0 Aug08 ?        00:00:00 [kmpath_rdacd]
+bsc        305 64973  0 Aug10 ?        00:25:54 /u40/apps/bsc/software/BSC/bsc/bin/oci_db_rcv -t ODR_1800_01_01 -l bsc_24_4_0_0 -p bsc_24_4_0_0@bsct5 -i bsc_24_4_0_0_oci_db_receive_high -d 0
+oracle     314     1  0 Aug10 ?        00:49:54 oraclebsct5 (LOCAL=NO)
+bsc        409 64973  0 Aug10 ?        00:29:08 /u40/apps/bsc/software/BSC/bsc/bin/oci_db_snd -t ODS_1800_01_02 -l bsc_24_4_0_0 -p bsc_24_4_0_0@bsct5 -d 0
+oracle     418     1  6 Aug10 ?        14:04:42 oraclebsct5 (LOCAL=NO)
+root       605     2  0 13:24 ?        00:00:00 [kworker/u:1]
+root       654     2  0 Aug08 ?        00:04:36 [kworker/2:2]
+root       655     2  0 Aug08 ?        00:00:00 [khubd]
+root       669     2  0 Aug08 ?        00:06:43 [kworker/1:2]
+bsc        735 64973  0 Aug10 ?        00:02:32 /u40/apps/bsc/software/BSC/bsc/bin/neta2que -p HRC_1800_04_01 -c -d 0 -o 0 -s 4 -q DSP_1800_03_01 -n 43004 -i CM-BSC-HLC-T5
+root       886     2  0 Aug08 ?        00:00:00 [kdmflush]
+root       892     2  0 Aug08 ?        00:00:00 [kdmflush]
+root       900     2  0 Aug08 ?        00:00:00 [kdmflush]
+root       960     2  0 Aug08 ?        00:01:01 [flush-253:0]
+root       966     2  0 Aug08 ?        00:00:44 [kjournald]
+root      1058     1  0 Aug08 ?        00:00:02 /sbin/udevd --daemon
+bsc       1073 64973  0 Aug10 ?        00:05:04 /u40/apps/bsc/software/BSC/bsc/bin/que2anet -p HSC_1800_04_02 -d 0 -b 4 -q HSC_1800_04_02 -n 43003 -s CM-BSC-HLC-T5
+bsc       1257 64973  0 Aug10 ?        00:14:42 /u40/apps/bsc/software/BSC/bsc/bin/neta2que -p LRC_1800_05_01 -c -d 0 -o 0 -s 5 -q DSP_1800_03_01 -n 43005 -i CM-BSC-LLC-T5
+bsc       1419 64973  0 Aug10 ?        00:18:18 /u40/apps/bsc/software/BSC/bsc/bin/que2anet -p LSC_1800_05_02 -d 0 -b 5 -q LSC_1800_05_02 -n 43006 -s CM-BSC-LLC-T5
+root      1613     2  0 Aug08 ?        00:00:00 [bnx2x]
+root      1825     2  0 Aug08 ?        00:00:00 [kauditd]
+root      1865     2  0 Aug08 ?        00:00:00 [kmpathd]
+root      1866     2  0 Aug08 ?        00:00:00 [kmpath_handlerd]
+root      1906     2  0 Aug08 ?        00:00:00 [kdmflush]
+root      1911     2  0 Aug08 ?        00:00:00 [kdmflush]
+root      1914     2  0 Aug08 ?        00:00:00 [kdmflush]
+root      1919     2  0 Aug08 ?        00:00:00 [kdmflush]
+root      1923     2  0 Aug08 ?        00:00:00 [kdmflush]
+root      1929     2  0 Aug08 ?        00:00:00 [kdmflush]
+root      1935     2  0 Aug08 ?        00:00:00 [kdmflush]
+root      1942     2  0 Aug08 ?        00:00:00 [kdmflush]
+root      1948     2  0 Aug08 ?        00:00:00 [kdmflush]
+root      1954     2  0 Aug08 ?        00:00:00 [kdmflush]
+root      1960     2  0 Aug08 ?        00:00:00 [kdmflush]
+root      1966     2  0 Aug08 ?        00:00:00 [kdmflush]
+root      1981     2  0 Aug08 ?        00:00:00 [kdmflush]
+root      1994     2  0 Aug08 ?        00:00:00 [kdmflush]
+root      2007     2  0 Aug08 ?        00:00:00 [kdmflush]
+root      2021     2  0 Aug08 ?        00:00:00 [kdmflush]
+root      2029     2  0 Aug08 ?        00:00:00 [kdmflush]
+root      2035     2  0 Aug08 ?        00:00:00 [kdmflush]
+root      2043     2  0 Aug08 ?        00:00:00 [kdmflush]
+root      2371     2  0 Aug08 ?        00:00:06 [flush-253:2]
+root      2415     2  0 Aug08 ?        00:00:00 [kjournald]
+root      2416     2  0 Aug08 ?        00:00:04 [kjournald]
+root      3130     1  0 Aug08 ?        00:00:00 /sbin/acpid
+100       3145     1  0 Aug08 ?        00:00:01 /bin/dbus-daemon --system
+root      3163     1  0 Aug08 ?        00:00:52 /sbin/syslog-ng
+root      3166     1  0 Aug08 ?        00:00:00 /sbin/klogd -c 1 -x
+root      3239     1  0 Aug08 ?        00:02:24 hpasmlited -f /dev/hpilo
+101       3636     1  0 Aug08 ?        00:00:12 /usr/sbin/hald --daemon=yes
+root      3639     1  0 Aug08 ?        00:00:00 /usr/sbin/console-kit-daemon
+root      3640  3636  0 Aug08 ?        00:00:00 hald-runner
+root      3735  3640  0 Aug08 ?        00:00:00 hald-addon-input: Listening on /dev/input/event0 /dev/input/event1
+root      3821  3640  0 Aug08 ?        00:00:00 /usr/lib64/hal/hald-addon-cpufreq
+101       3823  3640  0 Aug08 ?        00:00:00 hald-addon-acpi: listening on acpid socket /var/run/acpid.socket
+root      5202     2  0 Aug08 ?        00:00:00 [bond0]
+root      5225     2  0 Aug08 ?        00:10:36 [kworker/7:2]
+root      5382     2  0 Aug08 ?        00:00:00 [bond1]
+root      5442 64973  0 Aug11 ?        00:05:31 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_10 -d 0 -o 1
+root      5614     1  0 Aug08 ?        00:00:01 /opt/etc/tnsxd
+oracle    5702     1  0 Aug08 ?        00:01:09 /u01/apps/oracle/product/agent11g/perl/bin/perl /u01/apps/oracle/product/agent11g/bin/emwd.pl agent /u01/apps/oracle/product/agent11g/sysman/log/emagent.nohup
+root      5703     1  0 Aug08 ?        00:00:00 /opt/hp/vcagent/bin/vcagentd
+root      5719 64973  0 Aug11 ?        00:10:25 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_11 -d 0 -o 1
+root      5762     1  0 Aug08 ?        00:00:00 /sbin/auditd -s disable
+root      5764  5762  0 Aug08 ?        00:00:00 /sbin/audispd
+root      5795     1  0 Aug08 ?        00:11:30 /sbin/haveged -w 1024 -v 1
+root      5811     1  0 Aug08 ?        00:18:44 /sbin/multipathd
+oracle    5818  5702  0 Aug08 ?        00:04:33 /u01/apps/oracle/product/agent11g/bin/emagent
+root      6006     1  1 Aug18 ?        00:23:09 /usr/sbin/snmpd -r -A -LF i /var/log/net-snmpd.log -p /var/run/snmpd.pid
+root      6044 64973  0 Aug11 ?        00:05:59 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_12 -d 0 -o 1
+root      6172     1  0 Aug08 ?        00:00:00 /sbin/rpcbind
+root      6190 64973  0 Aug11 ?        00:11:14 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_13 -d 0 -o 1
+root      6215     1  0 Aug08 ?        00:00:26 /usr/sbin/nsrexecd
+root      6381     2  0 Aug08 ?        00:00:00 [hcp_watchdog]
+root      6382     1  0 Aug08 ?        00:00:15 /usr/sbin/r1soft/bin/cdp -s -c /usr/sbin/r1soft/conf/agent_config
+root      6388 64973  0 Aug11 ?        00:07:25 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_14 -d 0 -o 1
+root      6424     1  0 Aug08 ?        00:03:36 /usr/sbin/irqbalance
+root      6434     1  0 Aug08 ?        00:01:35 ha_logd: read process          
+root      6443  6434  0 Aug08 ?        00:00:37 ha_logd: write process         
+root      6459     1  0 Aug08 ?        00:00:00 /usr/sbin/mcelog --daemon --config-file /etc/mcelog/mcelog.conf
+root      6567 64973  0 Aug11 ?        00:06:32 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_15 -d 0 -o 1
+root      6907 64973  0 Aug11 ?        00:06:50 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_16 -d 0 -o 1
+root      7209 64973  0 Aug11 ?        00:06:13 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_17 -d 0 -o 1
+root      7211     1  0 Aug08 ?        00:00:11 /usr/sbin/sshd -o PidFile=/var/run/sshd.init.pid
+root      7240     1  0 Aug08 ?        00:03:46 /opt/quest/sbin/vasd -p /var/opt/quest/vas/vasd/.vasd.pid
+daemon    7263  7240  0 Aug08 ?        00:00:59 /opt/quest/sbin/vasd -p /var/opt/quest/vas/vasd/.vasd.pid
+ntp       7265     1  0 Aug08 ?        00:00:31 /usr/sbin/ntpd -p /var/run/ntp/ntpd.pid -g -u ntp:ntp -i /var/lib/ntp -c /etc/ntp.conf
+root      7284     1  0 Aug08 ?        00:00:00 /usr/sbin/cupsd
+root      7358 64973  0 Aug11 ?        00:06:05 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_18 -d 0 -o 1
+root      7364     1  0 Aug08 ?        00:01:08 cmahealthd -p 30 -s OK -t OK -i -l /var/log/hp-snmp-agents/cma.log
+root      7391     1  0 Aug08 ?        00:00:42 cmastdeqd -p 30 -l /var/log/hp-snmp-agents/cma.log
+root      7418     1  0 Aug08 ?        00:14:05 cmahostd -p 15 -s OK -l /var/log/hp-snmp-agents/cma.log
+root      7441     1  0 Aug08 ?        00:00:20 cmathreshd -p 5 -s OK -l /var/log/hp-snmp-agents/cma.log
+root      7486     1  0 Aug08 ?        00:07:18 cmasm2d -p 30 -l /var/log/hp-snmp-agents/cma.log
+root      7507     1  0 Aug08 ?        00:00:07 cmasm2d -p 30 -l /var/log/hp-snmp-agents/cma.log
+root      7524     1  0 Aug08 ?        00:10:51 cmaperfd -p 30 -s OK -l /var/log/hp-snmp-agents/cma.log
+root      7570     1  0 Aug08 ?        00:00:03 cmapeerd -l /var/log/hp-snmp-agents/cma.log
+root      7573 64973  0 Aug11 ?        00:06:25 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_19 -d 0 -o 1
+root      7605     1  0 Aug08 ?        00:00:18 cmaeventd -p 15 -l /var/log/hp-snmp-agents/cma.log
+root      7669     1  0 Aug08 ?        00:00:01 cmasasd -p 15 -s OK -l /var/log/hp-snmp-agents/cma.log
+root      7704     1  0 Aug08 ?        00:00:40 cmaidad -p 15 -s OK -l /var/log/hp-snmp-agents/cma.log
+root      7739     1  0 Aug08 ?        00:00:03 cmaided -p 15 -s OK -l /var/log/hp-snmp-agents/cma.log
+root      7778     1  0 Aug08 ?        00:00:01 cmascsid -p 15 -s OK -l /var/log/hp-snmp-agents/cma.log
+root      7892 64973  0 Aug11 ?        00:05:59 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_20 -d 0 -o 1
+root      7958     1  0 Aug08 ?        00:00:19 /opt/hp/hpsmh/sbin/hpsmhd -DSSL -f /opt/hp/hpsmh/conf/smhpd.conf
+root      7959  7958  0 Aug08 ?        00:00:00 /opt/hp/hpsmh/bin/rotatelogs /var/spool/opt/hp/hpsmh/logs/error_log 5M
+root      7960  7958  0 Aug08 ?        00:00:00 /opt/hp/hpsmh/bin/rotatelogs /var/spool/opt/hp/hpsmh/logs/access_log 5M
+hpsmh     7963  7958  0 Aug08 ?        00:00:00 /opt/hp/hpsmh/sbin/hpsmhd -DSSL -f /opt/hp/hpsmh/conf/smhpd.conf
+hpsmh     7966  7958  0 Aug08 ?        00:00:00 /opt/hp/hpsmh/sbin/hpsmhd -DSSL -f /opt/hp/hpsmh/conf/smhpd.conf
+hpsmh     7967  7958  0 Aug08 ?        00:00:00 /opt/hp/hpsmh/sbin/hpsmhd -DSSL -f /opt/hp/hpsmh/conf/smhpd.conf
+hpsmh     7968  7958  0 Aug08 ?        00:00:00 /opt/hp/hpsmh/sbin/hpsmhd -DSSL -f /opt/hp/hpsmh/conf/smhpd.conf
+hpsmh     7969  7958  0 Aug08 ?        00:00:00 /opt/hp/hpsmh/sbin/hpsmhd -DSSL -f /opt/hp/hpsmh/conf/smhpd.conf
+hpsmh     7970  7958  0 Aug08 ?        00:00:00 /opt/hp/hpsmh/sbin/hpsmhd -DSSL -f /opt/hp/hpsmh/conf/smhpd.conf
+root      7980     1  0 Aug08 ?        00:03:53 /usr/sbin/nscd
+root      8013     1  0 Aug08 ?        00:00:00 /opt/quest/sbin/vasgpd -p /var/opt/quest/vgp/vasgpd/.vasgpd.pid
+root      8050 64973  0 Aug11 ?        00:06:06 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_21 -d 0 -o 1
+root      8084     1  0 Aug08 ?        00:00:02 /usr/sbin/automount -p /var/run/automount.pid
+root      8117     1  0 Aug08 ?        00:00:00 /usr/sbin/ocmanager/elxhbamgrd
+bsc       8171 64973  0 Aug11 ?        00:04:20 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_22 -d 0 -o 1
+root      8202     1  0 Aug08 ?        00:00:01 /usr/lib/postfix/master
+root      8235     1  0 Aug08 ?        00:00:01 /usr/sbin/cron
+postfix   8249  8202  0 Aug08 ?        00:00:00 qmgr -l -t fifo -u
+root      8286 64973  0 Aug11 ?        00:05:32 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_22 -d 0 -o 1
+root      8296     1  0 Aug08 ?        00:00:00 /usr/sbin/smartd
+root      8351     1  0 Aug08 ?        00:03:40 /opt/OV/bin/ovcd
+root      8359  8351  0 Aug08 ?        00:00:30 /opt/OV/bin/ovbbccb -nodaemon
+root      8376  8351  0 Aug08 ?        00:02:15 /opt/OV/lbin/perf/coda
+root      8378  8351  0 Aug08 ?        00:00:00 /opt/OV/lbin/conf/ovconfd
+root      8460  8351  0 Aug08 ?        00:00:59 /opt/OV/lbin/eaagt/opcmsga
+bsc       8466 64973  0 Aug11 ?        00:04:23 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_23 -d 0 -o 1
+root      8559  8351  0 Aug08 ?        00:00:50 /opt/OV/lbin/eaagt/opcacta
+root      8564  8351  0 Aug08 ?        00:00:59 /opt/OV/lbin/eaagt/opcle -std
+root      8567  8351  0 Aug08 ?        00:03:10 /opt/OV/lbin/eaagt/opcmona
+root      8577  8351  0 Aug08 ?        00:00:00 /opt/OV/lbin/eaagt/opcmsgi
+root      8608     1  0 Aug08 ?        00:00:00 /opt/OV/lbin/xpl/trc/ovtrcd
+root      8632     1  0 Aug08 tty1     00:00:00 /sbin/mingetty --noclear tty1
+root      8633     1  0 Aug08 tty2     00:00:00 /sbin/mingetty tty2
+root      8634     1  0 Aug08 tty3     00:00:00 /sbin/mingetty tty3
+root      8635     1  0 Aug08 tty4     00:00:00 /sbin/mingetty tty4
+root      8636     1  0 Aug08 tty5     00:00:00 /sbin/mingetty tty5
+root      8637     1  0 Aug08 tty6     00:00:00 /sbin/mingetty tty6
+root      8638     1  0 Aug08 ttyS0    00:00:00 /sbin/agetty -L 115200 ttyS0 vt102
+root      8647 64973  0 Aug11 ?        00:09:02 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_23 -d 0 -o 1
+bsc       8720 64973  0 Aug11 ?        00:05:56 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_24 -d 0 -o 1
+root      8927 64973  0 Aug11 ?        00:05:22 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_24 -d 0 -o 1
+bsc       8960 64973  0 Aug11 ?        00:06:07 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_25 -d 0 -o 1
+root      9075 64973  0 Aug11 ?        00:09:15 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_25 -d 0 -o 1
+bsc       9157 64973  0 Aug11 ?        00:06:44 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_26 -d 0 -o 1
+root      9269 64973  0 Aug11 ?        00:06:49 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_26 -d 0 -o 1
+bsc       9343 64973  0 Aug11 ?        00:05:37 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_27 -d 0 -o 1
+root      9445 64973  0 Aug11 ?        00:06:15 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_27 -d 0 -o 1
+bsc       9464 64973  0 Aug10 ?        00:00:01 /u40/apps/bsc/software/BSC/bsc/bin/bsc_mon -t BMR_1800_02_01 -d 0 -o 3
+root      9489     2  0 Aug18 ?        00:00:50 [kworker/6:1]
+bsc       9561 64973  0 Aug11 ?        00:06:34 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_28 -d 0 -o 1
+root      9775 64973  0 Aug11 ?        00:06:44 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_28 -d 0 -o 1
+bsc       9930 64973  0 Aug11 ?        00:06:33 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_29 -d 0 -o 1
+root     10083 64973  0 Aug11 ?        00:06:41 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_29 -d 0 -o 1
+oracle   10153     1  3 Aug10 ?        07:14:01 ora_j002_bsct5
+bsc      10156 64973  0 Aug11 ?        00:06:02 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_30 -d 0 -o 1
+root     10215 64973  0 Aug11 ?        00:06:27 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_30 -d 0 -o 1
+bsc      10318 64973  0 Aug11 ?        00:06:16 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_31 -d 0 -o 1
+root     10438 64973  0 Aug11 ?        00:06:04 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_31 -d 0 -o 1
+bsc      10532 64973  0 Aug11 ?        00:06:02 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_32 -d 0 -o 1
+root     10759 64973  0 Aug11 ?        00:06:12 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_32 -d 0 -o 1
+bsc      10795 64973  0 Aug11 ?        00:06:29 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_33 -d 0 -o 1
+hpsmh    10801  7958  0 Aug12 ?        00:00:00 /opt/hp/hpsmh/sbin/hpsmhd -DSSL -f /opt/hp/hpsmh/conf/smhpd.conf
+root     10896 64973  0 Aug11 ?        00:05:21 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_33 -d 0 -o 1
+bsc      11007 64973  0 Aug11 ?        00:04:16 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_34 -d 0 -o 1
+root     11112 64973  0 Aug11 ?        00:06:12 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_34 -d 0 -o 1
+bsc      11253 64973  0 Aug11 ?        00:04:19 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_35 -d 0 -o 1
+root     11398 64973  0 Aug11 ?        00:09:31 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_35 -d 0 -o 1
+bsc      11490 64973  0 Aug11 ?        00:05:35 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_36 -d 0 -o 1
+root     11667 64973  0 Aug11 ?        00:05:08 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_36 -d 0 -o 1
+bsc      11865 64973  0 Aug11 ?        00:05:45 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_37 -d 0 -o 1
+oracle   11942     1  0 Aug12 ?        00:00:48 ora_s004_bsct5
+oracle   12239     1  1 13:27 ?        00:00:37 ora_j000_bsct5
+root     12390 64973  0 Aug11 ?        00:05:02 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_37 -d 0 -o 1
+bsc      13817 64973  0 Aug11 ?        00:05:33 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_38 -d 0 -o 1
+root     14310 64973  0 Aug11 ?        00:08:12 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_38 -d 0 -o 1
+bsc      14419 64973  0 Aug11 ?        00:05:25 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_39 -d 0 -o 1
+root     14521 64973  0 Aug11 ?        00:06:06 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_39 -d 0 -o 1
+bsc      14638 64973  0 Aug11 ?        00:05:14 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_40 -d 0 -o 1
+root     14854 64973  0 Aug11 ?        00:06:15 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_40 -d 0 -o 1
+bsc      14959 64973  0 Aug11 ?        00:05:05 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_41 -d 0 -o 1
+root     15109 64973  0 Aug11 ?        00:05:45 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_41 -d 0 -o 1
+bsc      15185 64973  0 Aug11 ?        00:04:50 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_42 -d 0 -o 1
+root     15234 64973  0 Aug11 ?        00:05:58 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_42 -d 0 -o 1
+bsc      15336 64973  0 Aug11 ?        00:05:46 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_43 -d 0 -o 1
+root     15455 64973  0 Aug11 ?        00:06:04 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_43 -d 0 -o 1
+bsc      15481 64973  0 Aug17 ?        00:01:16 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_10 -d 0 -o 1
+bsc      15564 64973  0 Aug11 ?        00:05:40 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_44 -d 0 -o 1
+bsc      15606 64973  0 Aug17 ?        00:02:10 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_14 -d 0 -o 1
+root     15790 64973  0 Aug11 ?        00:06:14 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_44 -d 0 -o 1
+bsc      15831 64973  0 Aug11 ?        00:05:52 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_45 -d 0 -o 1
+oracle   15914     1  0 Aug09 ?        00:01:08 /u20/apps/oracle/product/agent11g/perl/bin/perl /u20/apps/oracle/product/agent11g/bin/emwd.pl agent /u20/apps/oracle/product/agent11g/sysman/log/emagent.nohup
+root     15940 64973  0 Aug11 ?        00:05:19 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_45 -d 0 -o 1
+oracle   15956 15914  0 Aug09 ?        00:09:09 /u20/apps/oracle/product/agent11g/bin/emagent
+oracle   15982     1  0 Aug09 ?        00:00:14 oraclebsct5 (LOCAL=NO)
+bsc      16058 64973  0 Aug11 ?        00:04:16 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_46 -d 0 -o 1
+oracle   16083     1  0 Aug09 ?        00:01:55 oraclebsct5 (LOCAL=NO)
+oracle   16127     1  0 Aug09 ?        00:00:22 ora_smco_bsct5
+root     16156 64973  0 Aug11 ?        00:06:26 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_46 -d 0 -o 1
+bsc      16344 64973  0 Aug11 ?        00:04:18 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_47 -d 0 -o 1
+root     16497 64973  0 Aug11 ?        00:10:39 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_47 -d 0 -o 1
+bsc      16586 64973  0 Aug11 ?        00:05:22 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_48 -d 0 -o 1
+root     16759 64973  0 Aug11 ?        00:05:53 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_48 -d 0 -o 1
+bsc      16788 64973  0 Aug17 ?        00:01:17 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_11 -d 0 -o 1
+bsc      16829 64973  0 Aug11 ?        00:05:22 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_49 -d 0 -o 1
+root     16831     2  0 Aug09 ?        00:00:47 [flush-9:15]
+bsc      16914 64973  0 Aug17 ?        00:02:01 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_12 -d 0 -o 1
+root     16939 64973  0 Aug11 ?        00:05:17 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_49 -d 0 -o 1
+bsc      16957 64973  0 Aug17 ?        00:02:03 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_13 -d 0 -o 1
+bsc      17037 64973  0 Aug17 ?        00:01:46 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_15 -d 0 -o 1
+bsc      17038 64973  0 Aug11 ?        00:05:21 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_50 -d 0 -o 1
+bsc      17122 64973  0 Aug17 ?        00:02:08 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_16 -d 0 -o 1
+root     17145 64973  0 Aug11 ?        00:09:39 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_50 -d 0 -o 1
+bsc      17242 64973  0 Aug11 ?        00:05:14 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_51 -d 0 -o 1
+bsc      17256 64973  0 Aug17 ?        00:01:49 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_17 -d 0 -o 1
+root     17338 64973  0 Aug11 ?        00:06:09 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_51 -d 0 -o 1
+bsc      17437 64973  0 Aug17 ?        00:01:48 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_18 -d 0 -o 1
+bsc      17459 64973  0 Aug11 ?        00:05:08 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_52 -d 0 -o 1
+bsc      17513 64973  0 Aug17 ?        00:02:04 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_19 -d 0 -o 1
+bsc      17632 64973  0 Aug17 ?        00:02:05 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_20 -d 0 -o 1
+root     17663 64973  0 Aug11 ?        00:05:54 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_52 -d 0 -o 1
+bsc      17772 64973  0 Aug11 ?        00:05:04 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_53 -d 0 -o 1
+root     17913 64973  0 Aug11 ?        00:06:07 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_53 -d 0 -o 1
+bsc      17992 64973  0 Aug11 ?        00:04:57 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_54 -d 0 -o 1
+root     18037 64973  0 Aug11 ?        00:06:21 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_54 -d 0 -o 1
+bsc      18143 64973  0 Aug11 ?        00:05:04 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_55 -d 0 -o 1
+root     18257 64973  0 Aug11 ?        00:06:49 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_55 -d 0 -o 1
+bsc      18350 64973  0 Aug11 ?        00:04:56 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_56 -d 0 -o 1
+root     18579 64973  0 Aug11 ?        00:06:00 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_56 -d 0 -o 1
+bsc      18625 64973  0 Aug11 ?        00:04:57 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_57 -d 0 -o 1
+root     18721 64973  0 Aug11 ?        00:05:50 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_57 -d 0 -o 1
+bsc      18842 64973  0 Aug11 ?        00:05:22 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_58 -d 0 -o 1
+root     18932 64973  0 Aug11 ?        00:06:39 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_58 -d 0 -o 1
+bsc      19082 64973  0 Aug11 ?        00:05:20 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_59 -d 0 -o 1
+root     19223 64973  0 Aug11 ?        00:06:21 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_59 -d 0 -o 1
+bsc      19305 64973  0 Aug11 ?        00:05:09 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_60 -d 0 -o 1
+root     19486 64973  0 Aug11 ?        00:06:43 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_60 -d 0 -o 1
+bsc      19554 64973  0 Aug11 ?        00:04:20 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_61 -d 0 -o 1
+root     19662 64973  0 Aug11 ?        00:06:05 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_61 -d 0 -o 1
+bsc      19739 64973  0 Aug11 ?        00:05:23 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_62 -d 0 -o 1
+root     19806 64973  0 Aug11 ?        00:05:55 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_62 -d 0 -o 1
+bsc      19942 64973  0 Aug11 ?        00:05:07 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_63 -d 0 -o 1
+root     20037 64973  0 Aug11 ?        00:08:40 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_63 -d 0 -o 1
+bsc      20129 64973  0 Aug11 ?        00:05:02 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_64 -d 0 -o 1
+root     20363 64973  0 Aug11 ?        00:06:14 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_64 -d 0 -o 1
+bsc      20478 64973  0 Aug11 ?        00:04:57 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_65 -d 0 -o 1
+root     20619 64973  0 Aug11 ?        00:06:31 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_65 -d 0 -o 1
+root     20625     2  0 Aug15 ?        00:08:11 [kworker/0:0]
+bsc      20699 64973  0 Aug11 ?        00:05:02 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_66 -d 0 -o 1
+root     20700     1  0 00:00 ?        00:00:01 /usr/bin/nmon -x
+root     20743 64973  0 Aug11 ?        00:06:59 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_66 -d 0 -o 1
+bsc      20850 64973  0 Aug11 ?        00:04:48 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_67 -d 0 -o 1
+root     20958 64973  0 Aug11 ?        00:06:39 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_67 -d 0 -o 1
+bsc      21007 64973  0 Aug11 ?        00:04:47 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_68 -d 0 -o 1
+root     21221 64973  0 Aug11 ?        00:05:52 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_68 -d 0 -o 1
+bsc      21320 64973  0 Aug11 ?        00:04:16 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_69 -d 0 -o 1
+root     21414 64973  0 Aug11 ?        00:06:14 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_69 -d 0 -o 1
+bsc      21542 64973  0 Aug11 ?        00:05:09 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_70 -d 0 -o 1
+root     21631 64973  0 Aug11 ?        00:05:37 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_70 -d 0 -o 1
+bsc      21779 64973  0 Aug11 ?        00:04:58 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_71 -d 0 -o 1
+root     21923 64973  0 Aug11 ?        00:08:44 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_71 -d 0 -o 1
+bsc      21979 64973  0 Aug11 ?        00:05:00 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_72 -d 0 -o 1
+root     22187 64973  0 Aug11 ?        00:07:06 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_72 -d 0 -o 1
+bsc      22251 64973  0 Aug11 ?        00:04:45 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_73 -d 0 -o 1
+root     22370 64973  0 Aug11 ?        00:06:17 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_73 -d 0 -o 1
+bsc      22441 64973  0 Aug11 ?        00:04:57 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_74 -d 0 -o 1
+root     22483 64973  0 Aug11 ?        00:07:17 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_74 -d 0 -o 1
+bsc      22638 64973  0 Aug11 ?        00:04:41 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_75 -d 0 -o 1
+root     22719 64973  0 Aug11 ?        00:06:43 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_75 -d 0 -o 1
+bsc      22818 64973  0 Aug11 ?        00:04:33 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_76 -d 0 -o 1
+root     23040 64973  0 Aug11 ?        00:05:41 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_76 -d 0 -o 1
+bsc      23172 64973  0 Aug11 ?        00:04:58 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_77 -d 0 -o 1
+bsc      23349 64973  0 Aug11 ?        00:05:16 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_78 -d 0 -o 1
+bsc      24095 64973  0 Aug17 ?        00:01:30 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_21 -d 0 -o 1
+root     24388     1  0 Aug11 ?        00:44:17 /u50/app/vi/amon_24.4/bin/./wrapper /u50/app/vi/amon_24.4/bin/../conf/wrapper.conf wrapper.syslog.ident=Amon wrapper.pidfile=/u50/app/vi/amon_24.4/bin/./Amon.pid wrapper.name=Amon wrapper.displayname=Application monitoring tool wrapper.daemonize=TRUE wrapper.lockfile=/var/lock/subsys/Amon
+root     24410 24388  2 Aug11 ?        05:00:17 ../jre/bin/java -Djava.library.path=../lib -classpath ../lib/amon_weca.jar -Dwrapper.key=fHj-d2HECf4URHkiAYXyYlaB3t7DTntL -Dwrapper.port=32002 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=24388 -Dwrapper.version=3.3.1-st -Dwrapper.native_library=wrapper -Dwrapper.service=TRUE -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1 com.vanderlande.amon.Main
+root     24840     2  0 Aug14 ?        00:01:55 [kworker/19:0]
+oracle   24873     1  1 Aug10 ?        03:32:23 oraclebsct5 (LOCAL=NO)
+oracle   25751     1  1 Aug10 ?        03:39:55 oraclebsct5 (LOCAL=NO)
+oracle   26472     1  1 Aug10 ?        03:28:56 oraclebsct5 (LOCAL=NO)
+oracle   27146     1  0 Aug09 ?        00:04:29 oraclebsct5 (LOCAL=NO)
+oracle   27479     1  1 Aug10 ?        03:50:59 oraclebsct5 (LOCAL=NO)
+oracle   27635     1  1 13:33 ?        00:00:37 ora_j001_bsct5
+oracle   28290     1  1 Aug10 ?        03:36:42 oraclebsct5 (LOCAL=NO)
+oracle   29046     1  1 Aug10 ?        03:50:43 oraclebsct5 (LOCAL=NO)
+oracle   29835     1  1 Aug10 ?        03:33:32 oraclebsct5 (LOCAL=NO)
+oracle   30448     1  1 Aug10 ?        03:36:47 oraclebsct5 (LOCAL=NO)
+oracle   30601     1  0 Aug12 ?        00:01:08 ora_s001_bsct5
+root     32010     1  0 Aug08 ?        00:01:00 sbd: inquisitor                                                                                                                     
+root     32014 32010  0 Aug08 ?        00:01:13 sbd: watcher: /dev/disk/by-id/scsi-xp02a-sbd - slot: 0                                                                              
+root     32015 32010  0 Aug08 ?        00:01:13 sbd: watcher: /dev/disk/by-id/scsi-xp02b-sbd - slot: 0                                                                              
+root     32016 32010  0 Aug08 ?        00:01:13 sbd: watcher: /dev/disk/by-id/scsi-msa001c-sbd - slot: 0                                                                            
+root     32017 32010  0 Aug08 ?        01:34:58 sbd: watcher: Pacemaker                                                                                                             
+root     32049     1  0 Aug08 ?        00:08:06 /usr/sbin/corosync
+root     32055 32049  0 Aug08 ?        00:00:38 /usr/lib64/heartbeat/stonithd
+90       32056 32049  0 Aug08 ?        00:45:33 /usr/lib64/heartbeat/cib
+root     32057 32049  0 Aug08 ?        00:15:10 /usr/lib64/heartbeat/lrmd
+90       32058 32049  0 Aug08 ?        00:00:37 /usr/lib64/heartbeat/attrd
+90       32059 32049  0 Aug08 ?        00:00:28 /usr/lib64/heartbeat/pengine
+90       32060 32049  0 Aug08 ?        00:01:09 /usr/lib64/heartbeat/crmd
+root     32061 32049  0 Aug08 ?        00:00:14 /usr/lib64/heartbeat/mgmtd
+root     33145     2  0 12:09 ?        00:00:07 [kworker/6:2]
+oracle   33329     1  2 13:56 ?        00:00:13 ora_j004_bsct5
+oracle   33764     1  1 Aug10 ?        03:03:31 oraclebsct5 (LOCAL=NO)
+root     33765     2  0 Aug08 ?        00:04:33 [md10_raid1]
+root     33766  1058  0 Aug08 ?        00:00:14 /sbin/udevd --daemon
+root     33835     2  0 Aug08 ?        00:01:16 [md11_raid1]
+root     33836  1058  0 Aug08 ?        00:00:00 /sbin/udevd --daemon
+root     33903     2  0 Aug08 ?        00:00:55 [md12_raid1]
+root     33969     2  0 Aug08 ?        00:19:19 [md13_raid1]
+root     34037     2  0 Aug08 ?        00:17:19 [md14_raid1]
+root     34106     2  0 Aug08 ?        00:02:05 [md15_raid1]
+root     34148     2  0 Aug16 ?        00:01:02 [kworker/18:0]
+root     34180     2  0 Aug08 ?        00:01:38 [md40_raid1]
+root     34246     2  0 Aug08 ?        00:02:24 [md41_raid1]
+root     34418     2  0 Aug08 ?        00:00:04 [kjournald]
+root     34545     2  0 Aug08 ?        00:00:03 [flush-9:10]
+oracle   34616     1  1 Aug10 ?        03:09:01 oraclebsct5 (LOCAL=NO)
+root     34653     2  0 Aug08 ?        00:00:09 [kjournald]
+root     34760     2  0 Aug08 ?        00:00:03 [kjournald]
+root     34906     2  0 Aug08 ?        00:00:03 [kjournald]
+root     35003     2  0 Aug08 ?        00:00:03 [kjournald]
+root     35095     2  0 Aug08 ?        00:01:36 [kjournald]
+root     35115     2  0 Aug08 ?        00:00:08 [flush-9:11]
+root     35117     2  0 Aug08 ?        00:00:03 [flush-9:12]
+root     35119     2  0 Aug08 ?        00:00:03 [flush-9:13]
+root     35120     2  0 Aug08 ?        00:00:03 [flush-9:14]
+oracle   35360     1  1 Aug10 ?        03:30:17 oraclebsct5 (LOCAL=NO)
+root     35517     2  0 Aug08 ?        00:00:22 [kjournald]
+root     35620     2  0 Aug08 ?        00:00:35 [flush-9:40]
+root     35930     2  0 Aug08 ?        00:01:43 [kjournald]
+oracle   36187     1  1 Aug10 ?        03:01:06 oraclebsct5 (LOCAL=NO)
+root     36459     2  0 Aug08 ?        00:00:55 [flush-9:41]
+oracle   37116     1  0 Aug10 ?        00:00:01 oraclebsct5 (LOCAL=NO)
+root     37808     2  0 Aug14 ?        00:01:12 [kworker/18:2]
+oracle   38175     1  0 Aug10 ?        00:00:01 oraclebsct5 (LOCAL=NO)
+root     38682     2  0 13:58 ?        00:00:00 [kworker/u:0]
+oracle   39012     1  0 Aug10 ?        00:00:01 oraclebsct5 (LOCAL=NO)
+oracle   40003     1  0 Aug10 ?        00:00:01 oraclebsct5 (LOCAL=NO)
+root     40885     1  0 Aug10 ?        00:00:00 rpc.statd --no-notify
+root     40931     2  0 Aug10 ?        00:00:00 [rpciod]
+root     40934     2  0 Aug10 ?        00:00:00 [nfsiod]
+oracle   40964     1  1 13:59 ?        00:00:06 ora_j003_bsct5
+root     42162     1  0 Aug08 ?        00:00:23 kissd -d
+oracle   42843     1  0 00:07 ?        00:00:00 ora_s005_bsct5
+postfix  43358  8202  0 12:34 ?        00:00:00 pickup -l -t fifo -u
+oracle   51958     1  0 14:02 ?        00:00:00 ora_w001_bsct5
+oracle   53622     1  1 14:03 ?        00:00:01 ora_j007_bsct5
+root     54065     2  0 14:03 ?        00:00:00 [kworker/u:2]
+oracle   55472     1  0 Aug09 ?        00:01:41 ora_pmon_bsct5
+oracle   55597     1  0 Aug09 ?        00:01:51 ora_psp0_bsct5
+oracle   55664     1  0 Aug09 ?        01:00:43 ora_vktm_bsct5
+oracle   55671     1  0 Aug09 ?        00:00:18 ora_gen0_bsct5
+oracle   55676     1  0 Aug09 ?        00:00:32 ora_diag_bsct5
+oracle   55681     1  0 Aug09 ?        00:00:19 ora_dbrm_bsct5
+oracle   55686     1  0 Aug09 ?        00:06:22 ora_dia0_bsct5
+oracle   55691     1  0 Aug09 ?        00:00:18 ora_mman_bsct5
+oracle   55697     1  0 Aug09 ?        00:02:26 ora_dbw0_bsct5
+oracle   55739     1  0 Aug09 ?        00:02:21 ora_dbw1_bsct5
+oracle   55744     1  0 Aug09 ?        00:02:20 ora_dbw2_bsct5
+oracle   55749     1  0 Aug09 ?        00:40:59 ora_lgwr_bsct5
+oracle   55754     1  0 Aug09 ?        00:02:48 ora_ckpt_bsct5
+oracle   55759     1  0 Aug09 ?        00:01:43 ora_smon_bsct5
+oracle   55764     1  0 Aug09 ?        00:00:07 ora_reco_bsct5
+oracle   55780     1  0 Aug09 ?        00:03:11 ora_mmon_bsct5
+oracle   55785     1  0 Aug09 ?        00:05:12 ora_mmnl_bsct5
+oracle   55790     1  0 Aug09 ?        00:00:11 ora_d000_bsct5
+oracle   55795     1  0 Aug09 ?        00:02:06 ora_s000_bsct5
+oracle   56021     1  0 13:42 ?        00:00:00 ora_w000_bsct5
+root     56063  7211  0 14:03 ?        00:00:00 sshd: bsc [priv]                                   
+oracle   56083     1  0 Aug09 ?        00:00:10 ora_qmnc_bsct5
+oracle   56210     1  0 14:04 ?        00:00:00 ora_j005_bsct5
+oracle   56215     1  0 14:04 ?        00:00:00 ora_j006_bsct5
+oracle   56306     1  0 Aug09 ?        00:02:18 ora_cjq0_bsct5
+bsc      56320 56063  0 14:04 ?        00:00:00 sshd: bsc@pts/0                                    
+bsc      56327 56320  0 14:04 pts/0    00:00:00 -ksh
+oracle   56553     1  0 Aug09 ?        00:00:10 ora_q000_bsct5
+oracle   56558     1  0 Aug09 ?        00:00:07 ora_q001_bsct5
+oracle   57123     1  0 Aug09 ?        00:04:23 /u01/apps/oracle/product/11.2.0.2/bin/tnslsnr listener_bsct5 -inherit
+root     57270  7211  0 14:04 ?        00:00:00 sshd: viadmin [priv]                               
+viadmin  57275 57270  0 14:04 ?        00:00:00 sshd: viadmin@notty                                
+viadmin  57276 57275  2 14:04 ?        00:00:00 /bin/bash /home/viadmin/healthcheck/bin/healthcheck.sh -v -d server_details check_up_time check_old_log_files check_config_files check_ip_link check_hp_asm check_hp_array check_fs_space check_lvm_devices check_md_device check_multipath_status check_cluster_status check_messages_file check_memory_utilization check_hba_status check_hpov_status check_ntp
+oracle   57513     1  5 14:04 ?        00:00:00 oraclebsct5 (LOCAL=NO)
+root     57524 57276  0 14:04 ?        00:00:00 /usr/bin/sudo INFOMGR_BYPASS_NONSA=1 /usr/sbin/hpacucli ctrl all show config
+root     57525 57524  0 14:04 ?        00:00:00 /bin/sh /usr/sbin/hpacucli ctrl all show config
+root     57533 57525 23 14:04 ?        00:00:00 /opt/compaq/hpacucli/bld/.hpacucli ctrl all show config
+bsc      57575 56327  0 14:04 pts/0    00:00:00 ps -ef
+root     59547     2  0 06:58 ?        00:00:10 [kworker/19:1]
+cm       59941     1  0 Aug09 ?        00:03:56 /u41/app/vi/CM_2.11.4.0/CM/tools/wrapper/../wrapper/wrapper /u41/app/vi/CM_2.11.4.0/CM/tools/wrapper/../../../CM_BSC_LLC/conf/wrapper.conf wrapper.syslog.ident=CM_BSC_LLC wrapper.pidfile=/u41/app/vi/CM_2.11.4.0/data/wrapper/CM_BSC_LLC.pid wrapper.name=CM_BSC_LLC wrapper.displayname=CM_BSC_LLC wrapper.daemonize=TRUE
+cm       59944 59941 23 Aug09 ?        2-11:33:37 /u41/app/vi/jre1.6.0_20/bin/java -Dweblogic.MaxMessageSize=20000000 -Dorg.mortbay.io.nio.BUSY_PAUSE=0 -Dcm.instance=CM_BSC_LLC -Djava.security.egd=file:/dev/./urandom -Dnetworkaddress.cache.ttl=-1 -Dcm.logdir=/u41/app/vi/CM_2.11.4.0/logs/CM_BSC_LLC -Doracle.jdbc.ReadTimeout=1800000 -Xms128m -Xmx512m -Djava.library.path=../CM/tools/wrapper/ -classpath ../CM/tools/wrapper/wrapper.jar:../CM/lib/jmxri.jar:../CM/lib/sonic_Channel.jar:../CM/lib/sonic_Client.jar:../CM/lib/sonic_tracing.jar:../CM/lib/cm.jar:../CM/lib/httpcore-4.2.1.jar:../CM/lib/cm-weca.jar:../CM/lib/saxpath.jar:../CM/lib/MQPluggableAuthentication.jar:../CM/lib/sonic_ASPI.jar:../CM/lib/fscontext.jar:../CM/lib/xstream-1.0.2.jar:../CM/lib/jaxen-core.jar:../CM/lib/sonic_Client_ext.jar:../CM/lib/sdf.jar:../CM/lib/sonic_SSL.jar:../CM/lib/commons-lang3-3.1.jar:../CM/lib/sonic_Selector.jar:../CM/lib/xalan.jar:../CM/lib/activemq-core-5.5.1.jar:../CM/lib/commons-codec-1.6.jar:../CM/lib/apache-mime4j-0.6.jar:../CM/lib/sonic_Crypto.jar:../CM/lib/servlet-api-2.5-20081211.jar:../CM/lib/slf4j-log4j12-1.5.6.jar:../CM/lib/commons-lang-2.5.jar:../CM/lib/jdom-1.1.1.cm_patch.jar:../CM/lib/commons-io-2.2.jar:../CM/lib/jms.jar:../CM/lib/jetty-util-6.1.25.jar:../CM/lib/jetty-6.1.25.jar:../CM/lib/resolver.jar:../CM/lib/servlet.jar:../CM/lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar:../CM/lib/ojdbc6.jar:../CM/lib/commons-logging-1.1.1.jar:../CM/lib/activation.jar:../CM/lib/smq_tools.jar:../CM/lib/aspectjweaver.jar:../CM/lib/jaxen-jdom.jar:../CM/lib/mfcontext.jar:../CM/lib/xercesImpl.jar:../CM/lib/smc.jar:../CM/lib/sonic_XA.jar:../CM/lib/log4j-1.2.16.jar:../CM/lib/httpclient-4.2.1.jar:../CM/lib/imq.jar:../CM/lib/slf4j-api-1.5.6.jar:../CM/lib/snmp4j-1.10.1.jar:../CM/lib/sonic_XMessage.jar:../CM/lib/js.jar:../CM/lib/sonic_SF.jar:../CM/lib/aspectjrt.jar:../CM_BSC_LLC/lib/weca_bsc.jar -Dwrapper.key=9BT9qlJAl1QOliWmhcQQObth8ntirQPN -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=59941 -Dwrapper.version=3.3.1-st -Dwrapper.native_library=wrapper -Dwrapper.service=TRUE -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1 org.tanukisoftware.wrapper.WrapperSimpleApp com.vanderlande.weca.cm.core.CmMain
+cm       60158     1  0 Aug09 ?        00:03:57 /u41/app/vi/CM_2.11.4.0/CM/tools/wrapper/../wrapper/wrapper /u41/app/vi/CM_2.11.4.0/CM/tools/wrapper/../../../CM_BSC_HLC/conf/wrapper.conf wrapper.syslog.ident=CM_BSC_HLC wrapper.pidfile=/u41/app/vi/CM_2.11.4.0/data/wrapper/CM_BSC_HLC.pid wrapper.name=CM_BSC_HLC wrapper.displayname=CM_BSC_HLC wrapper.daemonize=TRUE
+cm       60192 60158  4 Aug09 ?        10:35:41 /u41/app/vi/jre1.6.0_20/bin/java -Dweblogic.MaxMessageSize=20000000 -Dorg.mortbay.io.nio.BUSY_PAUSE=0 -Dcm.instance=CM_BSC_HLC -Djava.security.egd=file:/dev/./urandom -Dnetworkaddress.cache.ttl=-1 -Dcm.logdir=/u41/app/vi/CM_2.11.4.0/logs/CM_BSC_HLC -Doracle.jdbc.ReadTimeout=1800000 -Xms128m -Xmx512m -Djava.library.path=../CM/tools/wrapper/ -classpath ../CM/tools/wrapper/wrapper.jar:../CM/lib/jmxri.jar:../CM/lib/sonic_Channel.jar:../CM/lib/sonic_Client.jar:../CM/lib/sonic_tracing.jar:../CM/lib/cm.jar:../CM/lib/httpcore-4.2.1.jar:../CM/lib/cm-weca.jar:../CM/lib/saxpath.jar:../CM/lib/MQPluggableAuthentication.jar:../CM/lib/sonic_ASPI.jar:../CM/lib/fscontext.jar:../CM/lib/xstream-1.0.2.jar:../CM/lib/jaxen-core.jar:../CM/lib/sonic_Client_ext.jar:../CM/lib/sdf.jar:../CM/lib/sonic_SSL.jar:../CM/lib/commons-lang3-3.1.jar:../CM/lib/sonic_Selector.jar:../CM/lib/xalan.jar:../CM/lib/activemq-core-5.5.1.jar:../CM/lib/commons-codec-1.6.jar:../CM/lib/apache-mime4j-0.6.jar:../CM/lib/sonic_Crypto.jar:../CM/lib/servlet-api-2.5-20081211.jar:../CM/lib/slf4j-log4j12-1.5.6.jar:../CM/lib/commons-lang-2.5.jar:../CM/lib/jdom-1.1.1.cm_patch.jar:../CM/lib/commons-io-2.2.jar:../CM/lib/jms.jar:../CM/lib/jetty-util-6.1.25.jar:../CM/lib/jetty-6.1.25.jar:../CM/lib/resolver.jar:../CM/lib/servlet.jar:../CM/lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar:../CM/lib/ojdbc6.jar:../CM/lib/commons-logging-1.1.1.jar:../CM/lib/activation.jar:../CM/lib/smq_tools.jar:../CM/lib/aspectjweaver.jar:../CM/lib/jaxen-jdom.jar:../CM/lib/mfcontext.jar:../CM/lib/xercesImpl.jar:../CM/lib/smc.jar:../CM/lib/sonic_XA.jar:../CM/lib/log4j-1.2.16.jar:../CM/lib/httpclient-4.2.1.jar:../CM/lib/imq.jar:../CM/lib/slf4j-api-1.5.6.jar:../CM/lib/snmp4j-1.10.1.jar:../CM/lib/sonic_XMessage.jar:../CM/lib/js.jar:../CM/lib/sonic_SF.jar:../CM/lib/aspectjrt.jar:../CM_BSC_HLC/lib/weca_bsc.jar -Dwrapper.key=wvbtmz4oF7RtLRWQafziWrrTHEQ9O6EA -Dwrapper.port=32001 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=60158 -Dwrapper.version=3.3.1-st -Dwrapper.native_library=wrapper -Dwrapper.service=TRUE -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1 org.tanukisoftware.wrapper.WrapperSimpleApp com.vanderlande.weca.cm.core.CmMain
+oracle   62173     1  0 Aug18 ?        00:00:03 ora_s003_bsct5
+root     64354     2  0 Aug15 ?        00:07:23 [kworker/0:1]
+bsc      64973     1  0 Aug10 ?        00:05:45 pmand -f /u40/apps/bsc/software/BSC/bsc/run/bsc/data/process.db -l bsc_24_4_0_0 -p bsc_24_4_0_0@bsct5 -a  Process Manager BSC 24_4_0_0 for site -m -o 1 -d 1
+oracle   64978     1  0 Aug10 ?        00:02:06 oraclebsct5 (LOCAL=NO)
+bsc      65402 64973  0 Aug10 ?        00:12:46 /u40/apps/bsc/software/BSC/bsc/bin/msg_disp -t DSP_1800_03_01 -d 0 -s 1 -l
+bsc      65427 64973  0 Aug10 ?        00:17:43 /u40/apps/bsc/software/BSC/bsc/bin/msg_log -t LOG_1800_03_02 -d 0 -p /u40/apps/bsc/software/BSC/bsc/run/bsc/log/msg

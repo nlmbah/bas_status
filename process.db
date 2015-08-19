@@ -1,0 +1,158 @@
+# VERSION=3
+# $Revision: 1.0 $ $Date: Tue Sep 3 12:11:55 UTC 2013 $
+01,1,DSP_1800_03_01 Message Dispatcher,DSP_1800_03_01,2,1,pman_start_dsp -t DSP_1800_03_01 -d 0 -s 1,0,0,kill -15,0
+02,1,LOG_1800_03_02 Message Logger,LOG_1800_03_02,2,1,pman_start_log -t LOG_1800_03_02 -d 0,2,0,kill -15,0
+03,1,ODR_1800_01_01 Oracle Out,ODR_1800_01_01,2,1,pman_start_odr -t ODR_1800_01_01 -f password.dat -i oci_db_receive_high -d 0,2,0,kill -2,2
+04,1,ODS_1800_01_02 Oracle In,ODS_1800_01_02,2,1,pman_start_ods -t ODS_1800_01_02 -f password.dat -d 0,4,0,kill -2,2
+05,1,BMR_1800_02_01 BSC Monitor,BMR_1800_02_01,2,1,pman_start_bmr -t BMR_1800_02_01 -d 0 -o 3,0,0,kill -15,2
+06,1,HRC_1800_04_01 CM_HLC_Recv,HRC HRC_1800_04_01,2,1,pman_start_hrc -p HRC_1800_04_01 -c -d 0 -o 0 -s 4 -q DSP_1800_03_01 -n 43004 -i CM-BSC-HLC-T5,2,9,kill -15,0
+07,1,HSC_1800_04_02 CM_HLC_Send,HSC HSC_1800_04_02,2,1,pman_start_hsc -p HSC_1800_04_02    -d 0      -b 4 -q HSC_1800_04_02 -n 43003 -s CM-BSC-HLC-T5,2,9,kill -15,0
+08,1,LRC_1800_05_01 CM_LLC_Recv,LRC LRC_1800_05_01,2,1,pman_start_lrc -p LRC_1800_05_01 -c -d 0 -o 0 -s 5 -q DSP_1800_03_01 -n 43005 -i CM-BSC-LLC-T5,2,9,kill -15,0
+09,1,LSC_1800_05_02 CM_LLC_Send,LSC LSC_1800_05_02,2,1,pman_start_lsc -p LSC_1800_05_02    -d 0      -b 5 -q LSC_1800_05_02 -n 43006 -s CM-BSC-LLC-T5,2,9,kill -15,0
+10,2,Job Cleanup,Job Cleanup,2,1,Bsc_Job.TableCleanup,0,D,1,0,0,0
+11,2,Job Enable ECM,Job Enable ECM,2,1,Bsc_Job.EnableEcmCalculations,0,M,6,0,0,0
+12,2,Job ECM calculations,Job ECM calculations,2,1,Bsc_Job.EcmTargetCalculations,0,M,0,0,0,0
+13,2,Job Lifesign,Job Lifesign,2,1,Bsc_Job.Lifesign,0,M,2,0,0,0
+14,2,Job SegmentReport,Job SegmentReport,2,1,Bsc_Job.SegmentReport,0,M,1,0,0,0
+15,2,Job Statistic Rate,Job Statistic Rate,2,1,Bsc_Job.RateStc,0,H,12,0,0,0
+16,2,Job Statistic Derived,Job Statistic Derived,2,1,Bsc_Job.derivedStc,0,H,12,10,0,0
+17,2,Job Statistics to Hlsc,Job Statistics to Hlsc,2,1,Bsc_Job.ProvideHlscWithStc,0,H,12,20,0,0
+18,2,Job Guard Init,Job Guard Init,2,1,Bsc_Job.GuardInit,0,M,1,0,0,0
+19,2,Job Heartbeat,Job Heartbeat,2,1,Bsc_Job.HeartBeat,0,M,1,0,0,0
+20,2,Job Gridlock,Job Gridlock,2,1,Bsc_Job.Gridlock,0,M,2,0,0,0
+21,1,BLA_0600_BAS BDC_1800_05_10,BDC_1800_05_10,2,1,pman_start_bdc -t BDC_1800_05_10 -d 0 -o 1,2,0,kill -15,0
+22,1,BLA_0600_PLC PDC_1800_06_10,PDC_1800_06_10,2,1,pman_start_plc -t PDC_1800_06_10 -d 0 -o 1,3,0,kill -15,0
+23,1,BLA_0640_BAS BDC_1800_05_11,BDC_1800_05_11,2,1,pman_start_bdc -t BDC_1800_05_11 -d 0 -o 1,2,0,kill -15,0
+24,1,BLA_0640_PLC PDC_1800_06_11,PDC_1800_06_11,2,1,pman_start_plc -t PDC_1800_06_11 -d 0 -o 1,3,0,kill -15,0
+25,1,BPA_0645_BAS BDC_1800_05_12,BDC_1800_05_12,2,1,pman_start_bdc -t BDC_1800_05_12 -d 0 -o 1,2,0,kill -15,0
+26,1,BPA_0645_PLC PDC_1800_06_12,PDC_1800_06_12,2,1,pman_start_plc -t PDC_1800_06_12 -d 0 -o 1,3,0,kill -15,0
+27,1,UNA_0650_BAS BDC_1800_05_13,BDC_1800_05_13,2,1,pman_start_bdc -t BDC_1800_05_13 -d 0 -o 1,2,0,kill -15,0
+28,1,UNA_0650_PLC PDC_1800_06_13,PDC_1800_06_13,2,1,pman_start_plc -t PDC_1800_06_13 -d 0 -o 1,3,0,kill -15,0
+29,1,UNA_0651_BAS BDC_1800_05_14,BDC_1800_05_14,2,1,pman_start_bdc -t BDC_1800_05_14 -d 0 -o 1,2,0,kill -15,0
+30,1,UNA_0651_PLC PDC_1800_06_14,PDC_1800_06_14,2,1,pman_start_plc -t PDC_1800_06_14 -d 0 -o 1,3,0,kill -15,0
+31,1,UNA_0652_BAS BDC_1800_05_15,BDC_1800_05_15,2,1,pman_start_bdc -t BDC_1800_05_15 -d 0 -o 1,2,0,kill -15,0
+32,1,UNA_0652_PLC PDC_1800_06_15,PDC_1800_06_15,2,1,pman_start_plc -t PDC_1800_06_15 -d 0 -o 1,3,0,kill -15,0
+33,1,LOA_0660_BAS BDC_1800_05_16,BDC_1800_05_16,2,1,pman_start_bdc -t BDC_1800_05_16 -d 0 -o 1,2,0,kill -15,0
+34,1,LOA_0660_PLC PDC_1800_06_16,PDC_1800_06_16,2,1,pman_start_plc -t PDC_1800_06_16 -d 0 -o 1,3,0,kill -15,0
+35,1,LOA_0661_BAS BDC_1800_05_17,BDC_1800_05_17,2,1,pman_start_bdc -t BDC_1800_05_17 -d 0 -o 1,2,0,kill -15,0
+36,1,LOA_0661_PLC PDC_1800_06_17,PDC_1800_06_17,2,1,pman_start_plc -t PDC_1800_06_17 -d 0 -o 1,3,0,kill -15,0
+37,1,LOA_0662_BAS BDC_1800_05_18,BDC_1800_05_18,2,1,pman_start_bdc -t BDC_1800_05_18 -d 0 -o 1,2,0,kill -15,0
+38,1,LOA_0662_PLC PDC_1800_06_18,PDC_1800_06_18,2,1,pman_start_plc -t PDC_1800_06_18 -d 0 -o 1,3,0,kill -15,0
+39,1,CSA_0670_BAS BDC_1800_05_19,BDC_1800_05_19,2,1,pman_start_bdc -t BDC_1800_05_19 -d 0 -o 1,2,0,kill -15,0
+40,1,CSA_0670_PLC PDC_1800_06_19,PDC_1800_06_19,2,1,pman_start_plc -t PDC_1800_06_19 -d 0 -o 1,3,0,kill -15,0
+41,1,CSA_0671_BAS BDC_1800_05_20,BDC_1800_05_20,2,1,pman_start_bdc -t BDC_1800_05_20 -d 0 -o 1,2,0,kill -15,0
+42,1,CSA_0671_PLC PDC_1800_06_20,PDC_1800_06_20,2,1,pman_start_plc -t PDC_1800_06_20 -d 0 -o 1,3,0,kill -15,0
+43,1,MIA_0680_BAS BDC_1800_05_21,BDC_1800_05_21,2,1,pman_start_bdc -t BDC_1800_05_21 -d 0 -o 1,2,0,kill -15,0
+44,1,MIA_0680_PLC PDC_1800_06_21,PDC_1800_06_21,2,1,pman_start_plc -t PDC_1800_06_21 -d 0 -o 1,3,0,kill -15,0
+45,1,BLA_0700_BAS BDC_1800_05_22,BDC_1800_05_22,2,1,pman_start_bdc -t BDC_1800_05_22 -d 0 -o 1,2,0,kill -15,0
+46,1,BLA_0700_PLC PDC_1800_06_22,PDC_1800_06_22,2,1,pman_start_plc -t PDC_1800_06_22 -d 0 -o 1,3,0,kill -15,0
+47,1,BLA_0740_BAS BDC_1800_05_23,BDC_1800_05_23,2,1,pman_start_bdc -t BDC_1800_05_23 -d 0 -o 1,2,0,kill -15,0
+48,1,BLA_0740_PLC PDC_1800_06_23,PDC_1800_06_23,2,1,pman_start_plc -t PDC_1800_06_23 -d 0 -o 1,3,0,kill -15,0
+49,1,BPA_0745_BAS BDC_1800_05_24,BDC_1800_05_24,2,1,pman_start_bdc -t BDC_1800_05_24 -d 0 -o 1,2,0,kill -15,0
+50,1,BPA_0745_PLC PDC_1800_06_24,PDC_1800_06_24,2,1,pman_start_plc -t PDC_1800_06_24 -d 0 -o 1,3,0,kill -15,0
+51,1,UNA_0750_BAS BDC_1800_05_25,BDC_1800_05_25,2,1,pman_start_bdc -t BDC_1800_05_25 -d 0 -o 1,2,0,kill -15,0
+52,1,UNA_0750_PLC PDC_1800_06_25,PDC_1800_06_25,2,1,pman_start_plc -t PDC_1800_06_25 -d 0 -o 1,3,0,kill -15,0
+53,1,UNA_0751_BAS BDC_1800_05_26,BDC_1800_05_26,2,1,pman_start_bdc -t BDC_1800_05_26 -d 0 -o 1,2,0,kill -15,0
+54,1,UNA_0751_PLC PDC_1800_06_26,PDC_1800_06_26,2,1,pman_start_plc -t PDC_1800_06_26 -d 0 -o 1,3,0,kill -15,0
+55,1,UNA_0752_BAS BDC_1800_05_27,BDC_1800_05_27,2,1,pman_start_bdc -t BDC_1800_05_27 -d 0 -o 1,2,0,kill -15,0
+56,1,UNA_0752_PLC PDC_1800_06_27,PDC_1800_06_27,2,1,pman_start_plc -t PDC_1800_06_27 -d 0 -o 1,3,0,kill -15,0
+57,1,LOA_0760_BAS BDC_1800_05_28,BDC_1800_05_28,2,1,pman_start_bdc -t BDC_1800_05_28 -d 0 -o 1,2,0,kill -15,0
+58,1,LOA_0760_PLC PDC_1800_06_28,PDC_1800_06_28,2,1,pman_start_plc -t PDC_1800_06_28 -d 0 -o 1,3,0,kill -15,0
+59,1,LOA_0761_BAS BDC_1800_05_29,BDC_1800_05_29,2,1,pman_start_bdc -t BDC_1800_05_29 -d 0 -o 1,2,0,kill -15,0
+60,1,LOA_0761_PLC PDC_1800_06_29,PDC_1800_06_29,2,1,pman_start_plc -t PDC_1800_06_29 -d 0 -o 1,3,0,kill -15,0
+61,1,LOA_0762_BAS BDC_1800_05_30,BDC_1800_05_30,2,1,pman_start_bdc -t BDC_1800_05_30 -d 0 -o 1,2,0,kill -15,0
+62,1,LOA_0762_PLC PDC_1800_06_30,PDC_1800_06_30,2,1,pman_start_plc -t PDC_1800_06_30 -d 0 -o 1,3,0,kill -15,0
+63,1,CSA_0770_BAS BDC_1800_05_31,BDC_1800_05_31,2,1,pman_start_bdc -t BDC_1800_05_31 -d 0 -o 1,2,0,kill -15,0
+64,1,CSA_0770_PLC PDC_1800_06_31,PDC_1800_06_31,2,1,pman_start_plc -t PDC_1800_06_31 -d 0 -o 1,3,0,kill -15,0
+65,1,CSA_0771_BAS BDC_1800_05_32,BDC_1800_05_32,2,1,pman_start_bdc -t BDC_1800_05_32 -d 0 -o 1,2,0,kill -15,0
+66,1,CSA_0771_PLC PDC_1800_06_32,PDC_1800_06_32,2,1,pman_start_plc -t PDC_1800_06_32 -d 0 -o 1,3,0,kill -15,0
+67,1,MIA_0780_BAS BDC_1800_05_33,BDC_1800_05_33,2,1,pman_start_bdc -t BDC_1800_05_33 -d 0 -o 1,2,0,kill -15,0
+68,1,MIA_0780_PLC PDC_1800_06_33,PDC_1800_06_33,2,1,pman_start_plc -t PDC_1800_06_33 -d 0 -o 1,3,0,kill -15,0
+69,1,BLA_1600_BAS BDC_1800_05_34,BDC_1800_05_34,2,1,pman_start_bdc -t BDC_1800_05_34 -d 0 -o 1,2,0,kill -15,0
+70,1,BLA_1600_PLC PDC_1800_06_34,PDC_1800_06_34,2,1,pman_start_plc -t PDC_1800_06_34 -d 0 -o 1,3,0,kill -15,0
+71,1,BLA_1640_BAS BDC_1800_05_35,BDC_1800_05_35,2,1,pman_start_bdc -t BDC_1800_05_35 -d 0 -o 1,2,0,kill -15,0
+72,1,BLA_1640_PLC PDC_1800_06_35,PDC_1800_06_35,2,1,pman_start_plc -t PDC_1800_06_35 -d 0 -o 1,3,0,kill -15,0
+73,1,BPA_1645_BAS BDC_1800_05_36,BDC_1800_05_36,2,1,pman_start_bdc -t BDC_1800_05_36 -d 0 -o 1,2,0,kill -15,0
+74,1,BPA_1645_PLC PDC_1800_06_36,PDC_1800_06_36,2,1,pman_start_plc -t PDC_1800_06_36 -d 0 -o 1,3,0,kill -15,0
+75,1,BPA_1646_BAS BDC_1800_05_37,BDC_1800_05_37,2,1,pman_start_bdc -t BDC_1800_05_37 -d 0 -o 1,2,0,kill -15,0
+76,1,BPA_1646_PLC PDC_1800_06_37,PDC_1800_06_37,2,1,pman_start_plc -t PDC_1800_06_37 -d 0 -o 1,3,0,kill -15,0
+77,1,UNA_1650_BAS BDC_1800_05_38,BDC_1800_05_38,2,1,pman_start_bdc -t BDC_1800_05_38 -d 0 -o 1,2,0,kill -15,0
+78,1,UNA_1650_PLC PDC_1800_06_38,PDC_1800_06_38,2,1,pman_start_plc -t PDC_1800_06_38 -d 0 -o 1,3,0,kill -15,0
+79,1,LOA_1660_BAS BDC_1800_05_39,BDC_1800_05_39,2,1,pman_start_bdc -t BDC_1800_05_39 -d 0 -o 1,2,0,kill -15,0
+80,1,LOA_1660_PLC PDC_1800_06_39,PDC_1800_06_39,2,1,pman_start_plc -t PDC_1800_06_39 -d 0 -o 1,3,0,kill -15,0
+81,1,LOA_1661_BAS BDC_1800_05_40,BDC_1800_05_40,2,1,pman_start_bdc -t BDC_1800_05_40 -d 0 -o 1,2,0,kill -15,0
+82,1,LOA_1661_PLC PDC_1800_06_40,PDC_1800_06_40,2,1,pman_start_plc -t PDC_1800_06_40 -d 0 -o 1,3,0,kill -15,0
+83,1,LOA_1662_BAS BDC_1800_05_41,BDC_1800_05_41,2,1,pman_start_bdc -t BDC_1800_05_41 -d 0 -o 1,2,0,kill -15,0
+84,1,LOA_1662_PLC PDC_1800_06_41,PDC_1800_06_41,2,1,pman_start_plc -t PDC_1800_06_41 -d 0 -o 1,3,0,kill -15,0
+85,1,LOA_1663_BAS BDC_1800_05_42,BDC_1800_05_42,2,1,pman_start_bdc -t BDC_1800_05_42 -d 0 -o 1,2,0,kill -15,0
+86,1,LOA_1663_PLC PDC_1800_06_42,PDC_1800_06_42,2,1,pman_start_plc -t PDC_1800_06_42 -d 0 -o 1,3,0,kill -15,0
+87,1,CSA_1670_BAS BDC_1800_05_43,BDC_1800_05_43,2,1,pman_start_bdc -t BDC_1800_05_43 -d 0 -o 1,2,0,kill -15,0
+88,1,CSA_1670_PLC PDC_1800_06_43,PDC_1800_06_43,2,1,pman_start_plc -t PDC_1800_06_43 -d 0 -o 1,3,0,kill -15,0
+89,1,MIA_1680_BAS BDC_1800_05_44,BDC_1800_05_44,2,1,pman_start_bdc -t BDC_1800_05_44 -d 0 -o 1,2,0,kill -15,0
+90,1,MIA_1680_PLC PDC_1800_06_44,PDC_1800_06_44,2,1,pman_start_plc -t PDC_1800_06_44 -d 0 -o 1,3,0,kill -15,0
+91,1,MIA_1690_BAS BDC_1800_05_45,BDC_1800_05_45,2,1,pman_start_bdc -t BDC_1800_05_45 -d 0 -o 1,2,0,kill -15,0
+92,1,MIA_1690_PLC PDC_1800_06_45,PDC_1800_06_45,2,1,pman_start_plc -t PDC_1800_06_45 -d 0 -o 1,3,0,kill -15,0
+93,1,BLA_1700_BAS BDC_1800_05_46,BDC_1800_05_46,2,1,pman_start_bdc -t BDC_1800_05_46 -d 0 -o 1,2,0,kill -15,0
+94,1,BLA_1700_PLC PDC_1800_06_46,PDC_1800_06_46,2,1,pman_start_plc -t PDC_1800_06_46 -d 0 -o 1,3,0,kill -15,0
+95,1,BLA_1740_BAS BDC_1800_05_47,BDC_1800_05_47,2,1,pman_start_bdc -t BDC_1800_05_47 -d 0 -o 1,2,0,kill -15,0
+96,1,BLA_1740_PLC PDC_1800_06_47,PDC_1800_06_47,2,1,pman_start_plc -t PDC_1800_06_47 -d 0 -o 1,3,0,kill -15,0
+97,1,BPA_1745_BAS BDC_1800_05_48,BDC_1800_05_48,2,1,pman_start_bdc -t BDC_1800_05_48 -d 0 -o 1,2,0,kill -15,0
+98,1,BPA_1745_PLC PDC_1800_06_48,PDC_1800_06_48,2,1,pman_start_plc -t PDC_1800_06_48 -d 0 -o 1,3,0,kill -15,0
+99,1,BPA_1746_BAS BDC_1800_05_49,BDC_1800_05_49,2,1,pman_start_bdc -t BDC_1800_05_49 -d 0 -o 1,2,0,kill -15,0
+100,1,BPA_1746_PLC PDC_1800_06_49,PDC_1800_06_49,2,1,pman_start_plc -t PDC_1800_06_49 -d 0 -o 1,3,0,kill -15,0
+101,1,UNA_1750_BAS BDC_1800_05_50,BDC_1800_05_50,2,1,pman_start_bdc -t BDC_1800_05_50 -d 0 -o 1,2,0,kill -15,0
+102,1,UNA_1750_PLC PDC_1800_06_50,PDC_1800_06_50,2,1,pman_start_plc -t PDC_1800_06_50 -d 0 -o 1,3,0,kill -15,0
+103,1,UNA_1751_BAS BDC_1800_05_51,BDC_1800_05_51,2,1,pman_start_bdc -t BDC_1800_05_51 -d 0 -o 1,2,0,kill -15,0
+104,1,UNA_1751_PLC PDC_1800_06_51,PDC_1800_06_51,2,1,pman_start_plc -t PDC_1800_06_51 -d 0 -o 1,3,0,kill -15,0
+105,1,UNA_1752_BAS BDC_1800_05_52,BDC_1800_05_52,2,1,pman_start_bdc -t BDC_1800_05_52 -d 0 -o 1,2,0,kill -15,0
+106,1,UNA_1752_PLC PDC_1800_06_52,PDC_1800_06_52,2,1,pman_start_plc -t PDC_1800_06_52 -d 0 -o 1,3,0,kill -15,0
+107,1,LOA_1760_BAS BDC_1800_05_53,BDC_1800_05_53,2,1,pman_start_bdc -t BDC_1800_05_53 -d 0 -o 1,2,0,kill -15,0
+108,1,LOA_1760_PLC PDC_1800_06_53,PDC_1800_06_53,2,1,pman_start_plc -t PDC_1800_06_53 -d 0 -o 1,3,0,kill -15,0
+109,1,LOA_1761_BAS BDC_1800_05_54,BDC_1800_05_54,2,1,pman_start_bdc -t BDC_1800_05_54 -d 0 -o 1,2,0,kill -15,0
+110,1,LOA_1761_PLC PDC_1800_06_54,PDC_1800_06_54,2,1,pman_start_plc -t PDC_1800_06_54 -d 0 -o 1,3,0,kill -15,0
+111,1,LOA_1762_BAS BDC_1800_05_55,BDC_1800_05_55,2,1,pman_start_bdc -t BDC_1800_05_55 -d 0 -o 1,2,0,kill -15,0
+112,1,LOA_1762_PLC PDC_1800_06_55,PDC_1800_06_55,2,1,pman_start_plc -t PDC_1800_06_55 -d 0 -o 1,3,0,kill -15,0
+113,1,LOA_1763_BAS BDC_1800_05_56,BDC_1800_05_56,2,1,pman_start_bdc -t BDC_1800_05_56 -d 0 -o 1,2,0,kill -15,0
+114,1,LOA_1763_PLC PDC_1800_06_56,PDC_1800_06_56,2,1,pman_start_plc -t PDC_1800_06_56 -d 0 -o 1,3,0,kill -15,0
+115,1,CSA_1770_BAS BDC_1800_05_57,BDC_1800_05_57,2,1,pman_start_bdc -t BDC_1800_05_57 -d 0 -o 1,2,0,kill -15,0
+116,1,CSA_1770_PLC PDC_1800_06_57,PDC_1800_06_57,2,1,pman_start_plc -t PDC_1800_06_57 -d 0 -o 1,3,0,kill -15,0
+117,1,MIA_1780_BAS BDC_1800_05_58,BDC_1800_05_58,2,1,pman_start_bdc -t BDC_1800_05_58 -d 0 -o 1,2,0,kill -15,0
+118,1,MIA_1780_PLC PDC_1800_06_58,PDC_1800_06_58,2,1,pman_start_plc -t PDC_1800_06_58 -d 0 -o 1,3,0,kill -15,0
+119,1,MIA_1790_BAS BDC_1800_05_59,BDC_1800_05_59,2,1,pman_start_bdc -t BDC_1800_05_59 -d 0 -o 1,2,0,kill -15,0
+120,1,MIA_1790_PLC PDC_1800_06_59,PDC_1800_06_59,2,1,pman_start_plc -t PDC_1800_06_59 -d 0 -o 1,3,0,kill -15,0
+121,1,CMA_1795_BAS BDC_1800_05_60,BDC_1800_05_60,2,1,pman_start_bdc -t BDC_1800_05_60 -d 0 -o 1,2,0,kill -15,0
+122,1,CMA_1795_PLC PDC_1800_06_60,PDC_1800_06_60,2,1,pman_start_plc -t PDC_1800_06_60 -d 0 -o 1,3,0,kill -15,0
+123,1,BLA_2600_BAS BDC_1800_05_61,BDC_1800_05_61,2,1,pman_start_bdc -t BDC_1800_05_61 -d 0 -o 1,2,0,kill -15,0
+124,1,BLA_2600_PLC PDC_1800_06_61,PDC_1800_06_61,2,1,pman_start_plc -t PDC_1800_06_61 -d 0 -o 1,3,0,kill -15,0
+125,1,BPA_2646_BAS BDC_1800_05_62,BDC_1800_05_62,2,1,pman_start_bdc -t BDC_1800_05_62 -d 0 -o 1,2,0,kill -15,0
+126,1,BPA_2646_PLC PDC_1800_06_62,PDC_1800_06_62,2,1,pman_start_plc -t PDC_1800_06_62 -d 0 -o 1,3,0,kill -15,0
+127,1,UNA_2650_BAS BDC_1800_05_63,BDC_1800_05_63,2,1,pman_start_bdc -t BDC_1800_05_63 -d 0 -o 1,2,0,kill -15,0
+128,1,UNA_2650_PLC PDC_1800_06_63,PDC_1800_06_63,2,1,pman_start_plc -t PDC_1800_06_63 -d 0 -o 1,3,0,kill -15,0
+129,1,LOA_2660_BAS BDC_1800_05_64,BDC_1800_05_64,2,1,pman_start_bdc -t BDC_1800_05_64 -d 0 -o 1,2,0,kill -15,0
+130,1,LOA_2660_PLC PDC_1800_06_64,PDC_1800_06_64,2,1,pman_start_plc -t PDC_1800_06_64 -d 0 -o 1,3,0,kill -15,0
+131,1,LOA_2661_BAS BDC_1800_05_65,BDC_1800_05_65,2,1,pman_start_bdc -t BDC_1800_05_65 -d 0 -o 1,2,0,kill -15,0
+132,1,LOA_2661_PLC PDC_1800_06_65,PDC_1800_06_65,2,1,pman_start_plc -t PDC_1800_06_65 -d 0 -o 1,3,0,kill -15,0
+133,1,CSA_2670_BAS BDC_1800_05_66,BDC_1800_05_66,2,1,pman_start_bdc -t BDC_1800_05_66 -d 0 -o 1,2,0,kill -15,0
+134,1,CSA_2670_PLC PDC_1800_06_66,PDC_1800_06_66,2,1,pman_start_plc -t PDC_1800_06_66 -d 0 -o 1,3,0,kill -15,0
+135,1,CSA_2671_BAS BDC_1800_05_67,BDC_1800_05_67,2,1,pman_start_bdc -t BDC_1800_05_67 -d 0 -o 1,2,0,kill -15,0
+136,1,CSA_2671_PLC PDC_1800_06_67,PDC_1800_06_67,2,1,pman_start_plc -t PDC_1800_06_67 -d 0 -o 1,3,0,kill -15,0
+137,1,MIA_2680_BAS BDC_1800_05_68,BDC_1800_05_68,2,1,pman_start_bdc -t BDC_1800_05_68 -d 0 -o 1,2,0,kill -15,0
+138,1,MIA_2680_PLC PDC_1800_06_68,PDC_1800_06_68,2,1,pman_start_plc -t PDC_1800_06_68 -d 0 -o 1,3,0,kill -15,0
+139,1,BLA_2700_BAS BDC_1800_05_69,BDC_1800_05_69,2,1,pman_start_bdc -t BDC_1800_05_69 -d 0 -o 1,2,0,kill -15,0
+140,1,BLA_2700_PLC PDC_1800_06_69,PDC_1800_06_69,2,1,pman_start_plc -t PDC_1800_06_69 -d 0 -o 1,3,0,kill -15,0
+141,1,BPA_2746_BAS BDC_1800_05_70,BDC_1800_05_70,2,1,pman_start_bdc -t BDC_1800_05_70 -d 0 -o 1,2,0,kill -15,0
+142,1,BPA_2746_PLC PDC_1800_06_70,PDC_1800_06_70,2,1,pman_start_plc -t PDC_1800_06_70 -d 0 -o 1,3,0,kill -15,0
+143,1,UNA_2750_BAS BDC_1800_05_71,BDC_1800_05_71,2,1,pman_start_bdc -t BDC_1800_05_71 -d 0 -o 1,2,0,kill -15,0
+144,1,UNA_2750_PLC PDC_1800_06_71,PDC_1800_06_71,2,1,pman_start_plc -t PDC_1800_06_71 -d 0 -o 1,3,0,kill -15,0
+145,1,LOA_2760_BAS BDC_1800_05_72,BDC_1800_05_72,2,1,pman_start_bdc -t BDC_1800_05_72 -d 0 -o 1,2,0,kill -15,0
+146,1,LOA_2760_PLC PDC_1800_06_72,PDC_1800_06_72,2,1,pman_start_plc -t PDC_1800_06_72 -d 0 -o 1,3,0,kill -15,0
+147,1,LOA_2761_BAS BDC_1800_05_73,BDC_1800_05_73,2,1,pman_start_bdc -t BDC_1800_05_73 -d 0 -o 1,2,0,kill -15,0
+148,1,LOA_2761_PLC PDC_1800_06_73,PDC_1800_06_73,2,1,pman_start_plc -t PDC_1800_06_73 -d 0 -o 1,3,0,kill -15,0
+149,1,CSA_2770_BAS BDC_1800_05_74,BDC_1800_05_74,2,1,pman_start_bdc -t BDC_1800_05_74 -d 0 -o 1,2,0,kill -15,0
+150,1,CSA_2770_PLC PDC_1800_06_74,PDC_1800_06_74,2,1,pman_start_plc -t PDC_1800_06_74 -d 0 -o 1,3,0,kill -15,0
+151,1,CSA_2771_BAS BDC_1800_05_75,BDC_1800_05_75,2,1,pman_start_bdc -t BDC_1800_05_75 -d 0 -o 1,2,0,kill -15,0
+152,1,CSA_2771_PLC PDC_1800_06_75,PDC_1800_06_75,2,1,pman_start_plc -t PDC_1800_06_75 -d 0 -o 1,3,0,kill -15,0
+153,1,MIA_2780_BAS BDC_1800_05_76,BDC_1800_05_76,2,1,pman_start_bdc -t BDC_1800_05_76 -d 0 -o 1,2,0,kill -15,0
+154,1,MIA_2780_PLC PDC_1800_06_76,PDC_1800_06_76,2,1,pman_start_plc -t PDC_1800_06_76 -d 0 -o 1,3,0,kill -15,0
+155,1,MIA_3680_BAS BDC_1800_05_77,BDC_1800_05_77,2,1,pman_start_bdc -t BDC_1800_05_77 -d 0 -o 1,2,0,kill -15,0
+156,1,MIA_3681_BAS BDC_1800_05_78,BDC_1800_05_78,2,1,pman_start_bdc -t BDC_1800_05_78 -d 0 -o 1,2,0,kill -15,0

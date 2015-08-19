@@ -1,0 +1,532 @@
+USER       PID                  STARTED COMMAND
+root         1 Sat Aug  8 11:21:49 2015 init [3]  
+root         2 Sat Aug  8 11:21:49 2015 [kthreadd]
+root         3 Sat Aug  8 11:21:49 2015 [ksoftirqd/0]
+root         6 Sat Aug  8 11:21:49 2015 [migration/0]
+root         7 Sat Aug  8 11:21:49 2015 [watchdog/0]
+root         8 Sat Aug  8 11:21:49 2015 [migration/1]
+root         9 Sat Aug  8 11:21:49 2015 [kworker/1:0]
+root        10 Sat Aug  8 11:21:49 2015 [ksoftirqd/1]
+root        12 Sat Aug  8 11:21:49 2015 [watchdog/1]
+root        13 Sat Aug  8 11:21:49 2015 [migration/2]
+root        14 Sat Aug  8 11:21:49 2015 [kworker/2:0]
+root        15 Sat Aug  8 11:21:49 2015 [ksoftirqd/2]
+root        16 Sat Aug  8 11:21:49 2015 [watchdog/2]
+root        17 Sat Aug  8 11:21:49 2015 [migration/3]
+root        18 Sat Aug  8 11:21:49 2015 [kworker/3:0]
+root        19 Sat Aug  8 11:21:49 2015 [ksoftirqd/3]
+root        20 Sat Aug  8 11:21:49 2015 [watchdog/3]
+root        21 Sat Aug  8 11:21:49 2015 [migration/4]
+root        22 Sat Aug  8 11:21:49 2015 [kworker/4:0]
+root        23 Sat Aug  8 11:21:49 2015 [ksoftirqd/4]
+root        24 Sat Aug  8 11:21:49 2015 [watchdog/4]
+root        25 Sat Aug  8 11:21:49 2015 [migration/5]
+root        26 Sat Aug  8 11:21:49 2015 [kworker/5:0]
+root        27 Sat Aug  8 11:21:49 2015 [ksoftirqd/5]
+root        28 Sat Aug  8 11:21:49 2015 [watchdog/5]
+root        29 Sat Aug  8 11:21:49 2015 [migration/6]
+root        31 Sat Aug  8 11:21:49 2015 [ksoftirqd/6]
+root        32 Sat Aug  8 11:21:49 2015 [watchdog/6]
+root        33 Sat Aug  8 11:21:49 2015 [migration/7]
+root        35 Sat Aug  8 11:21:49 2015 [ksoftirqd/7]
+root        36 Sat Aug  8 11:21:49 2015 [watchdog/7]
+root        37 Sat Aug  8 11:21:49 2015 [migration/8]
+root        38 Sat Aug  8 11:21:49 2015 [kworker/8:0]
+root        39 Sat Aug  8 11:21:49 2015 [ksoftirqd/8]
+root        40 Sat Aug  8 11:21:49 2015 [watchdog/8]
+root        41 Sat Aug  8 11:21:49 2015 [migration/9]
+root        42 Sat Aug  8 11:21:49 2015 [kworker/9:0]
+root        43 Sat Aug  8 11:21:49 2015 [ksoftirqd/9]
+root        44 Sat Aug  8 11:21:49 2015 [watchdog/9]
+root        45 Sat Aug  8 11:21:49 2015 [migration/10]
+root        46 Sat Aug  8 11:21:49 2015 [kworker/10:0]
+root        47 Sat Aug  8 11:21:49 2015 [ksoftirqd/10]
+root        48 Sat Aug  8 11:21:49 2015 [watchdog/10]
+root        49 Sat Aug  8 11:21:49 2015 [migration/11]
+root        50 Sat Aug  8 11:21:49 2015 [kworker/11:0]
+root        51 Sat Aug  8 11:21:49 2015 [ksoftirqd/11]
+root        52 Sat Aug  8 11:21:49 2015 [watchdog/11]
+root        53 Sat Aug  8 11:21:49 2015 [migration/12]
+root        54 Sat Aug  8 11:21:49 2015 [kworker/12:0]
+root        55 Sat Aug  8 11:21:49 2015 [ksoftirqd/12]
+root        56 Sat Aug  8 11:21:49 2015 [watchdog/12]
+root        57 Sat Aug  8 11:21:49 2015 [migration/13]
+root        58 Sat Aug  8 11:21:49 2015 [kworker/13:0]
+root        59 Sat Aug  8 11:21:49 2015 [ksoftirqd/13]
+root        60 Sat Aug  8 11:21:49 2015 [watchdog/13]
+root        61 Sat Aug  8 11:21:49 2015 [migration/14]
+root        62 Sat Aug  8 11:21:49 2015 [kworker/14:0]
+root        63 Sat Aug  8 11:21:49 2015 [ksoftirqd/14]
+root        64 Sat Aug  8 11:21:49 2015 [watchdog/14]
+root        65 Sat Aug  8 11:21:49 2015 [migration/15]
+root        67 Sat Aug  8 11:21:49 2015 [ksoftirqd/15]
+root        68 Sat Aug  8 11:21:49 2015 [watchdog/15]
+root        69 Sat Aug  8 11:21:49 2015 [migration/16]
+root        70 Sat Aug  8 11:21:49 2015 [kworker/16:0]
+root        71 Sat Aug  8 11:21:49 2015 [ksoftirqd/16]
+root        72 Sat Aug  8 11:21:49 2015 [watchdog/16]
+root        73 Sat Aug  8 11:21:49 2015 [migration/17]
+root        74 Sat Aug  8 11:21:49 2015 [kworker/17:0]
+root        75 Sat Aug  8 11:21:49 2015 [ksoftirqd/17]
+root        76 Sat Aug  8 11:21:49 2015 [watchdog/17]
+root        77 Sat Aug  8 11:21:49 2015 [migration/18]
+root        79 Sat Aug  8 11:21:49 2015 [ksoftirqd/18]
+root        80 Sat Aug  8 11:21:49 2015 [watchdog/18]
+root        81 Sat Aug  8 11:21:49 2015 [migration/19]
+root        83 Sat Aug  8 11:21:49 2015 [ksoftirqd/19]
+root        84 Sat Aug  8 11:21:49 2015 [watchdog/19]
+root        85 Sat Aug  8 11:21:49 2015 [migration/20]
+root        86 Sat Aug  8 11:21:49 2015 [kworker/20:0]
+root        87 Sat Aug  8 11:21:49 2015 [ksoftirqd/20]
+root        88 Sat Aug  8 11:21:49 2015 [watchdog/20]
+root        89 Sat Aug  8 11:21:49 2015 [migration/21]
+root        90 Sat Aug  8 11:21:49 2015 [kworker/21:0]
+root        91 Sat Aug  8 11:21:49 2015 [ksoftirqd/21]
+root        92 Sat Aug  8 11:21:49 2015 [watchdog/21]
+root        93 Sat Aug  8 11:21:49 2015 [migration/22]
+root        94 Sat Aug  8 11:21:49 2015 [kworker/22:0]
+root        95 Sat Aug  8 11:21:49 2015 [ksoftirqd/22]
+root        96 Sat Aug  8 11:21:49 2015 [watchdog/22]
+root        97 Sat Aug  8 11:21:49 2015 [migration/23]
+root        98 Sat Aug  8 11:21:49 2015 [kworker/23:0]
+root        99 Sat Aug  8 11:21:49 2015 [ksoftirqd/23]
+root       100 Sat Aug  8 11:21:49 2015 [watchdog/23]
+root       101 Sat Aug  8 11:21:49 2015 [cpuset]
+root       102 Sat Aug  8 11:21:49 2015 [khelper]
+root       103 Sat Aug  8 11:21:49 2015 [netns]
+root       104 Sat Aug  8 11:21:50 2015 [sync_supers]
+root       105 Sat Aug  8 11:21:50 2015 [bdi-default]
+root       106 Sat Aug  8 11:21:50 2015 [kintegrityd]
+root       107 Sat Aug  8 11:21:50 2015 [kblockd]
+root       108 Sat Aug  8 11:21:50 2015 [md]
+root       109 Sat Aug  8 11:21:51 2015 [kworker/15:1]
+root       110 Sat Aug  8 11:21:51 2015 [khungtaskd]
+root       111 Sat Aug  8 11:21:51 2015 [kswapd0]
+root       112 Sat Aug  8 11:21:51 2015 [kswapd1]
+root       113 Sat Aug  8 11:21:52 2015 [ksmd]
+root       114 Sat Aug  8 11:21:52 2015 [khugepaged]
+root       115 Sat Aug  8 11:21:52 2015 [fsnotify_mark]
+root       117 Sat Aug  8 11:21:52 2015 [crypto]
+root       119 Sat Aug  8 11:21:52 2015 [kthrotld]
+root       146 Sat Aug  8 11:21:52 2015 [kworker/3:1]
+root       147 Sat Aug  8 11:21:52 2015 [kpsmoused]
+root       150 Sat Aug  8 11:21:52 2015 [kworker/7:1]
+root       152 Sat Aug  8 11:21:52 2015 [kworker/14:1]
+root       175 Sat Aug  8 11:21:52 2015 [kworker/13:1]
+root       201 Sat Aug  8 11:21:52 2015 [scsi_eh_0]
+root       209 Sat Aug  8 11:21:52 2015 [kworker/8:1]
+root       210 Sat Aug  8 11:21:52 2015 [kworker/9:1]
+root       211 Sat Aug  8 11:21:52 2015 [kworker/20:1]
+root       212 Sat Aug  8 11:21:52 2015 [kworker/21:1]
+root       214 Sat Aug  8 11:21:53 2015 [lpfc_worker_0]
+root       216 Sat Aug  8 11:21:53 2015 [kworker/22:1]
+root       217 Sat Aug  8 11:21:53 2015 [kworker/10:1]
+root       218 Sat Aug  8 11:21:53 2015 [kworker/4:1]
+root       219 Sat Aug  8 11:21:53 2015 [kworker/11:1]
+root       220 Sat Aug  8 11:21:53 2015 [kworker/17:1]
+root       221 Sat Aug  8 11:21:53 2015 [kworker/23:1]
+root       222 Sat Aug  8 11:21:53 2015 [kworker/5:1]
+root       223 Sat Aug  8 11:21:53 2015 [kworker/16:1]
+root       224 Sat Aug  8 11:21:53 2015 [kworker/12:1]
+root       225 Sat Aug  8 11:21:53 2015 [scsi_eh_1]
+root       226 Sat Aug  8 11:21:53 2015 [scsi_wq_1]
+root       228 Sat Aug  8 11:21:54 2015 [lpfc_worker_1]
+root       229 Sat Aug  8 11:21:54 2015 [scsi_eh_2]
+root       230 Sat Aug  8 11:21:54 2015 [scsi_wq_2]
+root       271 Sat Aug  8 11:21:56 2015 [kworker/15:2]
+root       279 Sat Aug  8 11:21:57 2015 [kmpath_rdacd]
+bsc        305 Mon Aug 10 01:43:08 2015 /u40/apps/bsc/software/BSC/bsc/bin/oci_db_rcv -t ODR_1800_01_01 -l bsc_24_4_0_0 -p bsc_24_4_0_0@bsct5 -i bsc_24_4_0_0_oci_db_receive_high -d 0
+oracle     314 Mon Aug 10 01:43:08 2015 oraclebsct5 (LOCAL=NO)
+bsc        409 Mon Aug 10 01:43:12 2015 /u40/apps/bsc/software/BSC/bsc/bin/oci_db_snd -t ODS_1800_01_02 -l bsc_24_4_0_0 -p bsc_24_4_0_0@bsct5 -d 0
+oracle     418 Mon Aug 10 01:43:12 2015 oraclebsct5 (LOCAL=NO)
+root       605 Wed Aug 19 13:24:26 2015 [kworker/u:1]
+root       654 Sat Aug  8 11:22:02 2015 [kworker/2:2]
+root       655 Sat Aug  8 11:22:02 2015 [khubd]
+root       669 Sat Aug  8 11:22:03 2015 [kworker/1:2]
+bsc        735 Mon Aug 10 01:43:22 2015 /u40/apps/bsc/software/BSC/bsc/bin/neta2que -p HRC_1800_04_01 -c -d 0 -o 0 -s 4 -q DSP_1800_03_01 -n 43004 -i CM-BSC-HLC-T5
+root       886 Sat Aug  8 11:22:06 2015 [kdmflush]
+root       892 Sat Aug  8 11:22:06 2015 [kdmflush]
+root       900 Sat Aug  8 11:22:06 2015 [kdmflush]
+root       960 Sat Aug  8 11:22:11 2015 [flush-253:0]
+root       966 Sat Aug  8 11:22:46 2015 [kjournald]
+root      1058 Sat Aug  8 11:22:47 2015 /sbin/udevd --daemon
+bsc       1073 Mon Aug 10 01:43:26 2015 /u40/apps/bsc/software/BSC/bsc/bin/que2anet -p HSC_1800_04_02 -d 0 -b 4 -q HSC_1800_04_02 -n 43003 -s CM-BSC-HLC-T5
+bsc       1257 Mon Aug 10 01:43:30 2015 /u40/apps/bsc/software/BSC/bsc/bin/neta2que -p LRC_1800_05_01 -c -d 0 -o 0 -s 5 -q DSP_1800_03_01 -n 43005 -i CM-BSC-LLC-T5
+bsc       1419 Mon Aug 10 01:43:33 2015 /u40/apps/bsc/software/BSC/bsc/bin/que2anet -p LSC_1800_05_02 -d 0 -b 5 -q LSC_1800_05_02 -n 43006 -s CM-BSC-LLC-T5
+root      1613 Sat Aug  8 11:22:50 2015 [bnx2x]
+root      1825 Sat Aug  8 11:22:54 2015 [kauditd]
+root      1865 Sat Aug  8 11:22:54 2015 [kmpathd]
+root      1866 Sat Aug  8 11:22:54 2015 [kmpath_handlerd]
+root      1906 Sat Aug  8 11:22:54 2015 [kdmflush]
+root      1911 Sat Aug  8 11:22:54 2015 [kdmflush]
+root      1914 Sat Aug  8 11:22:54 2015 [kdmflush]
+root      1919 Sat Aug  8 11:22:54 2015 [kdmflush]
+root      1923 Sat Aug  8 11:22:54 2015 [kdmflush]
+root      1929 Sat Aug  8 11:22:54 2015 [kdmflush]
+root      1935 Sat Aug  8 11:22:54 2015 [kdmflush]
+root      1942 Sat Aug  8 11:22:54 2015 [kdmflush]
+root      1948 Sat Aug  8 11:22:54 2015 [kdmflush]
+root      1954 Sat Aug  8 11:22:54 2015 [kdmflush]
+root      1960 Sat Aug  8 11:22:54 2015 [kdmflush]
+root      1966 Sat Aug  8 11:22:54 2015 [kdmflush]
+root      1981 Sat Aug  8 11:22:54 2015 [kdmflush]
+root      1994 Sat Aug  8 11:22:54 2015 [kdmflush]
+root      2007 Sat Aug  8 11:22:54 2015 [kdmflush]
+root      2021 Sat Aug  8 11:22:54 2015 [kdmflush]
+root      2029 Sat Aug  8 11:22:54 2015 [kdmflush]
+root      2035 Sat Aug  8 11:22:54 2015 [kdmflush]
+root      2043 Sat Aug  8 11:22:54 2015 [kdmflush]
+root      2371 Sat Aug  8 11:23:00 2015 [flush-253:2]
+root      2415 Sat Aug  8 11:23:31 2015 [kjournald]
+root      2416 Sat Aug  8 11:23:31 2015 [kjournald]
+root      3130 Sat Aug  8 11:23:38 2015 /sbin/acpid
+100       3145 Sat Aug  8 11:23:38 2015 /bin/dbus-daemon --system
+root      3163 Sat Aug  8 11:23:38 2015 /sbin/syslog-ng
+root      3166 Sat Aug  8 11:23:38 2015 /sbin/klogd -c 1 -x
+root      3239 Sat Aug  8 11:23:59 2015 hpasmlited -f /dev/hpilo
+101       3636 Sat Aug  8 11:24:00 2015 /usr/sbin/hald --daemon=yes
+root      3639 Sat Aug  8 11:24:00 2015 /usr/sbin/console-kit-daemon
+root      3640 Sat Aug  8 11:24:00 2015 hald-runner
+root      3735 Sat Aug  8 11:24:00 2015 hald-addon-input: Listening on /dev/input/event0 /dev/input/event1
+root      3821 Sat Aug  8 11:24:00 2015 /usr/lib64/hal/hald-addon-cpufreq
+101       3823 Sat Aug  8 11:24:00 2015 hald-addon-acpi: listening on acpid socket /var/run/acpid.socket
+root      5202 Sat Aug  8 11:24:03 2015 [bond0]
+root      5225 Sat Aug  8 11:24:03 2015 [kworker/7:2]
+root      5382 Sat Aug  8 11:24:04 2015 [bond1]
+root      5442 Tue Aug 11 09:07:14 2015 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_10 -d 0 -o 1
+root      5614 Sat Aug  8 11:24:07 2015 /opt/etc/tnsxd
+oracle    5702 Sat Aug  8 11:24:08 2015 /u01/apps/oracle/product/agent11g/perl/bin/perl /u01/apps/oracle/product/agent11g/bin/emwd.pl agent /u01/apps/oracle/product/agent11g/sysman/log/emagent.nohup
+root      5703 Sat Aug  8 11:24:08 2015 /opt/hp/vcagent/bin/vcagentd
+root      5719 Tue Aug 11 09:07:19 2015 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_11 -d 0 -o 1
+root      5762 Sat Aug  8 11:24:08 2015 /sbin/auditd -s disable
+root      5764 Sat Aug  8 11:24:08 2015 /sbin/audispd
+root      5795 Sat Aug  8 11:24:08 2015 /sbin/haveged -w 1024 -v 1
+root      5811 Sat Aug  8 11:24:08 2015 /sbin/multipathd
+oracle    5818 Sat Aug  8 11:24:08 2015 /u01/apps/oracle/product/agent11g/bin/emagent
+root      6006 Tue Aug 18 17:30:00 2015 /usr/sbin/snmpd -r -A -LF i /var/log/net-snmpd.log -p /var/run/snmpd.pid
+root      6044 Tue Aug 11 09:07:24 2015 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_12 -d 0 -o 1
+root      6172 Sat Aug  8 11:24:09 2015 /sbin/rpcbind
+root      6190 Tue Aug 11 09:07:29 2015 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_13 -d 0 -o 1
+root      6215 Sat Aug  8 11:24:10 2015 /usr/sbin/nsrexecd
+root      6381 Sat Aug  8 11:24:11 2015 [hcp_watchdog]
+root      6382 Sat Aug  8 11:24:11 2015 /usr/sbin/r1soft/bin/cdp -s -c /usr/sbin/r1soft/conf/agent_config
+root      6388 Tue Aug 11 09:07:34 2015 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_14 -d 0 -o 1
+root      6424 Sat Aug  8 11:24:12 2015 /usr/sbin/irqbalance
+root      6434 Sat Aug  8 11:24:12 2015 ha_logd: read process          
+root      6443 Sat Aug  8 11:24:12 2015 ha_logd: write process         
+root      6459 Sat Aug  8 11:24:12 2015 /usr/sbin/mcelog --daemon --config-file /etc/mcelog/mcelog.conf
+root      6567 Tue Aug 11 09:07:39 2015 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_15 -d 0 -o 1
+root      6907 Tue Aug 11 09:07:44 2015 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_16 -d 0 -o 1
+root      7209 Tue Aug 11 09:07:49 2015 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_17 -d 0 -o 1
+root      7211 Sat Aug  8 11:24:13 2015 /usr/sbin/sshd -o PidFile=/var/run/sshd.init.pid
+root      7240 Sat Aug  8 11:24:13 2015 /opt/quest/sbin/vasd -p /var/opt/quest/vas/vasd/.vasd.pid
+daemon    7263 Sat Aug  8 11:24:14 2015 /opt/quest/sbin/vasd -p /var/opt/quest/vas/vasd/.vasd.pid
+ntp       7265 Sat Aug  8 11:24:14 2015 /usr/sbin/ntpd -p /var/run/ntp/ntpd.pid -g -u ntp:ntp -i /var/lib/ntp -c /etc/ntp.conf
+root      7284 Sat Aug  8 11:24:14 2015 /usr/sbin/cupsd
+root      7358 Tue Aug 11 09:07:54 2015 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_18 -d 0 -o 1
+root      7364 Sat Aug  8 11:24:14 2015 cmahealthd -p 30 -s OK -t OK -i -l /var/log/hp-snmp-agents/cma.log
+root      7391 Sat Aug  8 11:24:14 2015 cmastdeqd -p 30 -l /var/log/hp-snmp-agents/cma.log
+root      7418 Sat Aug  8 11:24:14 2015 cmahostd -p 15 -s OK -l /var/log/hp-snmp-agents/cma.log
+root      7441 Sat Aug  8 11:24:14 2015 cmathreshd -p 5 -s OK -l /var/log/hp-snmp-agents/cma.log
+root      7486 Sat Aug  8 11:24:14 2015 cmasm2d -p 30 -l /var/log/hp-snmp-agents/cma.log
+root      7507 Sat Aug  8 11:24:15 2015 cmasm2d -p 30 -l /var/log/hp-snmp-agents/cma.log
+root      7524 Sat Aug  8 11:24:15 2015 cmaperfd -p 30 -s OK -l /var/log/hp-snmp-agents/cma.log
+root      7570 Sat Aug  8 11:24:15 2015 cmapeerd -l /var/log/hp-snmp-agents/cma.log
+root      7573 Tue Aug 11 09:07:59 2015 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_19 -d 0 -o 1
+root      7605 Sat Aug  8 11:24:15 2015 cmaeventd -p 15 -l /var/log/hp-snmp-agents/cma.log
+root      7669 Sat Aug  8 11:24:15 2015 cmasasd -p 15 -s OK -l /var/log/hp-snmp-agents/cma.log
+root      7704 Sat Aug  8 11:24:15 2015 cmaidad -p 15 -s OK -l /var/log/hp-snmp-agents/cma.log
+root      7739 Sat Aug  8 11:24:15 2015 cmaided -p 15 -s OK -l /var/log/hp-snmp-agents/cma.log
+root      7778 Sat Aug  8 11:24:15 2015 cmascsid -p 15 -s OK -l /var/log/hp-snmp-agents/cma.log
+root      7892 Tue Aug 11 09:08:04 2015 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_20 -d 0 -o 1
+root      7958 Sat Aug  8 11:24:17 2015 /opt/hp/hpsmh/sbin/hpsmhd -DSSL -f /opt/hp/hpsmh/conf/smhpd.conf
+root      7959 Sat Aug  8 11:24:17 2015 /opt/hp/hpsmh/bin/rotatelogs /var/spool/opt/hp/hpsmh/logs/error_log 5M
+root      7960 Sat Aug  8 11:24:17 2015 /opt/hp/hpsmh/bin/rotatelogs /var/spool/opt/hp/hpsmh/logs/access_log 5M
+hpsmh     7963 Sat Aug  8 19:50:52 2015 /opt/hp/hpsmh/sbin/hpsmhd -DSSL -f /opt/hp/hpsmh/conf/smhpd.conf
+hpsmh     7966 Sat Aug  8 11:24:17 2015 /opt/hp/hpsmh/sbin/hpsmhd -DSSL -f /opt/hp/hpsmh/conf/smhpd.conf
+hpsmh     7967 Sat Aug  8 11:24:17 2015 /opt/hp/hpsmh/sbin/hpsmhd -DSSL -f /opt/hp/hpsmh/conf/smhpd.conf
+hpsmh     7968 Sat Aug  8 11:24:17 2015 /opt/hp/hpsmh/sbin/hpsmhd -DSSL -f /opt/hp/hpsmh/conf/smhpd.conf
+hpsmh     7969 Sat Aug  8 11:24:17 2015 /opt/hp/hpsmh/sbin/hpsmhd -DSSL -f /opt/hp/hpsmh/conf/smhpd.conf
+hpsmh     7970 Sat Aug  8 11:24:17 2015 /opt/hp/hpsmh/sbin/hpsmhd -DSSL -f /opt/hp/hpsmh/conf/smhpd.conf
+root      7980 Sat Aug  8 11:24:17 2015 /usr/sbin/nscd
+root      8013 Sat Aug  8 11:24:17 2015 /opt/quest/sbin/vasgpd -p /var/opt/quest/vgp/vasgpd/.vasgpd.pid
+root      8050 Tue Aug 11 09:08:09 2015 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_21 -d 0 -o 1
+root      8084 Sat Aug  8 11:24:19 2015 /usr/sbin/automount -p /var/run/automount.pid
+root      8117 Sat Aug  8 11:24:19 2015 /usr/sbin/ocmanager/elxhbamgrd
+bsc       8171 Tue Aug 11 09:08:12 2015 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_22 -d 0 -o 1
+root      8202 Sat Aug  8 11:24:19 2015 /usr/lib/postfix/master
+root      8235 Sat Aug  8 11:24:19 2015 /usr/sbin/cron
+postfix   8249 Sat Aug  8 11:24:19 2015 qmgr -l -t fifo -u
+root      8286 Tue Aug 11 09:08:14 2015 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_22 -d 0 -o 1
+root      8296 Sat Aug  8 11:24:20 2015 /usr/sbin/smartd
+root      8351 Sat Aug  8 11:24:21 2015 /opt/OV/bin/ovcd
+root      8359 Sat Aug  8 11:24:21 2015 /opt/OV/bin/ovbbccb -nodaemon
+root      8376 Sat Aug  8 11:24:22 2015 /opt/OV/lbin/perf/coda
+root      8378 Sat Aug  8 11:24:22 2015 /opt/OV/lbin/conf/ovconfd
+root      8460 Sat Aug  8 11:24:28 2015 /opt/OV/lbin/eaagt/opcmsga
+bsc       8466 Tue Aug 11 09:08:17 2015 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_23 -d 0 -o 1
+root      8559 Sat Aug  8 11:24:33 2015 /opt/OV/lbin/eaagt/opcacta
+root      8564 Sat Aug  8 11:24:34 2015 /opt/OV/lbin/eaagt/opcle -std
+root      8567 Sat Aug  8 11:24:34 2015 /opt/OV/lbin/eaagt/opcmona
+root      8577 Sat Aug  8 11:24:34 2015 /opt/OV/lbin/eaagt/opcmsgi
+root      8608 Sat Aug  8 11:24:37 2015 /opt/OV/lbin/xpl/trc/ovtrcd
+root      8632 Sat Aug  8 11:24:37 2015 /sbin/mingetty --noclear tty1
+root      8633 Sat Aug  8 11:24:37 2015 /sbin/mingetty tty2
+root      8634 Sat Aug  8 11:24:37 2015 /sbin/mingetty tty3
+root      8635 Sat Aug  8 11:24:37 2015 /sbin/mingetty tty4
+root      8636 Sat Aug  8 11:24:37 2015 /sbin/mingetty tty5
+root      8637 Sat Aug  8 11:24:37 2015 /sbin/mingetty tty6
+root      8638 Sat Aug  8 11:24:37 2015 /sbin/agetty -L 115200 ttyS0 vt102
+root      8647 Tue Aug 11 09:08:19 2015 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_23 -d 0 -o 1
+bsc       8720 Tue Aug 11 09:08:22 2015 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_24 -d 0 -o 1
+root      8927 Tue Aug 11 09:08:24 2015 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_24 -d 0 -o 1
+bsc       8960 Tue Aug 11 09:08:27 2015 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_25 -d 0 -o 1
+root      9075 Tue Aug 11 09:08:29 2015 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_25 -d 0 -o 1
+bsc       9157 Tue Aug 11 09:08:32 2015 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_26 -d 0 -o 1
+root      9269 Tue Aug 11 09:08:34 2015 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_26 -d 0 -o 1
+bsc       9343 Tue Aug 11 09:08:37 2015 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_27 -d 0 -o 1
+root      9445 Tue Aug 11 09:08:39 2015 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_27 -d 0 -o 1
+bsc       9464 Mon Aug 10 01:45:46 2015 /u40/apps/bsc/software/BSC/bsc/bin/bsc_mon -t BMR_1800_02_01 -d 0 -o 3
+root      9489 Tue Aug 18 23:56:40 2015 [kworker/6:1]
+bsc       9561 Tue Aug 11 09:08:42 2015 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_28 -d 0 -o 1
+root      9775 Tue Aug 11 09:08:44 2015 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_28 -d 0 -o 1
+bsc       9930 Tue Aug 11 09:08:47 2015 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_29 -d 0 -o 1
+root     10083 Tue Aug 11 09:08:49 2015 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_29 -d 0 -o 1
+oracle   10153 Mon Aug 10 01:46:00 2015 ora_j002_bsct5
+bsc      10156 Tue Aug 11 09:08:52 2015 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_30 -d 0 -o 1
+root     10215 Tue Aug 11 09:08:54 2015 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_30 -d 0 -o 1
+bsc      10318 Tue Aug 11 09:08:57 2015 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_31 -d 0 -o 1
+root     10438 Tue Aug 11 09:08:59 2015 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_31 -d 0 -o 1
+bsc      10532 Tue Aug 11 09:09:02 2015 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_32 -d 0 -o 1
+root     10759 Tue Aug 11 09:09:04 2015 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_32 -d 0 -o 1
+bsc      10795 Tue Aug 11 09:09:07 2015 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_33 -d 0 -o 1
+hpsmh    10801 Wed Aug 12 23:42:43 2015 /opt/hp/hpsmh/sbin/hpsmhd -DSSL -f /opt/hp/hpsmh/conf/smhpd.conf
+root     10896 Tue Aug 11 09:09:09 2015 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_33 -d 0 -o 1
+bsc      11007 Tue Aug 11 09:09:12 2015 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_34 -d 0 -o 1
+root     11112 Tue Aug 11 09:09:14 2015 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_34 -d 0 -o 1
+bsc      11253 Tue Aug 11 09:09:17 2015 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_35 -d 0 -o 1
+root     11398 Tue Aug 11 09:09:19 2015 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_35 -d 0 -o 1
+bsc      11490 Tue Aug 11 09:09:22 2015 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_36 -d 0 -o 1
+root     11667 Tue Aug 11 09:09:24 2015 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_36 -d 0 -o 1
+bsc      11865 Tue Aug 11 09:09:27 2015 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_37 -d 0 -o 1
+oracle   11942 Wed Aug 12 16:59:01 2015 ora_s004_bsct5
+oracle   12239 Wed Aug 19 13:27:59 2015 ora_j000_bsct5
+root     12390 Tue Aug 11 09:09:29 2015 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_37 -d 0 -o 1
+bsc      13817 Tue Aug 11 09:09:32 2015 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_38 -d 0 -o 1
+root     14310 Tue Aug 11 09:09:34 2015 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_38 -d 0 -o 1
+bsc      14419 Tue Aug 11 09:09:37 2015 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_39 -d 0 -o 1
+root     14521 Tue Aug 11 09:09:39 2015 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_39 -d 0 -o 1
+bsc      14638 Tue Aug 11 09:09:42 2015 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_40 -d 0 -o 1
+root     14854 Tue Aug 11 09:09:44 2015 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_40 -d 0 -o 1
+bsc      14959 Tue Aug 11 09:09:47 2015 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_41 -d 0 -o 1
+root     15109 Tue Aug 11 09:09:49 2015 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_41 -d 0 -o 1
+bsc      15185 Tue Aug 11 09:09:52 2015 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_42 -d 0 -o 1
+root     15234 Tue Aug 11 09:09:54 2015 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_42 -d 0 -o 1
+bsc      15336 Tue Aug 11 09:09:57 2015 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_43 -d 0 -o 1
+root     15455 Tue Aug 11 09:09:59 2015 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_43 -d 0 -o 1
+bsc      15481 Mon Aug 17 04:10:20 2015 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_10 -d 0 -o 1
+bsc      15564 Tue Aug 11 09:10:02 2015 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_44 -d 0 -o 1
+bsc      15606 Mon Aug 17 04:10:22 2015 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_14 -d 0 -o 1
+root     15790 Tue Aug 11 09:10:04 2015 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_44 -d 0 -o 1
+bsc      15831 Tue Aug 11 09:10:07 2015 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_45 -d 0 -o 1
+oracle   15914 Sun Aug  9 02:55:01 2015 /u20/apps/oracle/product/agent11g/perl/bin/perl /u20/apps/oracle/product/agent11g/bin/emwd.pl agent /u20/apps/oracle/product/agent11g/sysman/log/emagent.nohup
+root     15940 Tue Aug 11 09:10:09 2015 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_45 -d 0 -o 1
+oracle   15956 Sun Aug  9 02:55:01 2015 /u20/apps/oracle/product/agent11g/bin/emagent
+oracle   15982 Sun Aug  9 02:55:02 2015 oraclebsct5 (LOCAL=NO)
+bsc      16058 Tue Aug 11 09:10:12 2015 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_46 -d 0 -o 1
+oracle   16083 Sun Aug  9 02:55:03 2015 oraclebsct5 (LOCAL=NO)
+oracle   16127 Sun Aug  9 02:55:04 2015 ora_smco_bsct5
+root     16156 Tue Aug 11 09:10:14 2015 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_46 -d 0 -o 1
+bsc      16344 Tue Aug 11 09:10:17 2015 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_47 -d 0 -o 1
+root     16497 Tue Aug 11 09:10:19 2015 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_47 -d 0 -o 1
+bsc      16586 Tue Aug 11 09:10:22 2015 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_48 -d 0 -o 1
+root     16759 Tue Aug 11 09:10:24 2015 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_48 -d 0 -o 1
+bsc      16788 Mon Aug 17 04:10:50 2015 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_11 -d 0 -o 1
+bsc      16829 Tue Aug 11 09:10:27 2015 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_49 -d 0 -o 1
+root     16831 Sun Aug  9 02:55:12 2015 [flush-9:15]
+bsc      16914 Mon Aug 17 04:10:52 2015 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_12 -d 0 -o 1
+root     16939 Tue Aug 11 09:10:29 2015 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_49 -d 0 -o 1
+bsc      16957 Mon Aug 17 04:10:54 2015 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_13 -d 0 -o 1
+bsc      17037 Mon Aug 17 04:10:56 2015 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_15 -d 0 -o 1
+bsc      17038 Tue Aug 11 09:10:32 2015 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_50 -d 0 -o 1
+bsc      17122 Mon Aug 17 04:10:58 2015 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_16 -d 0 -o 1
+root     17145 Tue Aug 11 09:10:34 2015 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_50 -d 0 -o 1
+bsc      17242 Tue Aug 11 09:10:37 2015 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_51 -d 0 -o 1
+bsc      17256 Mon Aug 17 04:11:00 2015 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_17 -d 0 -o 1
+root     17338 Tue Aug 11 09:10:39 2015 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_51 -d 0 -o 1
+bsc      17437 Mon Aug 17 04:11:02 2015 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_18 -d 0 -o 1
+bsc      17459 Tue Aug 11 09:10:42 2015 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_52 -d 0 -o 1
+bsc      17513 Mon Aug 17 04:11:04 2015 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_19 -d 0 -o 1
+bsc      17632 Mon Aug 17 04:11:06 2015 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_20 -d 0 -o 1
+root     17663 Tue Aug 11 09:10:44 2015 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_52 -d 0 -o 1
+bsc      17772 Tue Aug 11 09:10:47 2015 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_53 -d 0 -o 1
+root     17913 Tue Aug 11 09:10:49 2015 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_53 -d 0 -o 1
+bsc      17992 Tue Aug 11 09:10:52 2015 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_54 -d 0 -o 1
+root     18037 Tue Aug 11 09:10:54 2015 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_54 -d 0 -o 1
+bsc      18143 Tue Aug 11 09:10:57 2015 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_55 -d 0 -o 1
+root     18257 Tue Aug 11 09:10:59 2015 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_55 -d 0 -o 1
+bsc      18350 Tue Aug 11 09:11:02 2015 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_56 -d 0 -o 1
+root     18579 Tue Aug 11 09:11:04 2015 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_56 -d 0 -o 1
+bsc      18625 Tue Aug 11 09:11:07 2015 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_57 -d 0 -o 1
+root     18721 Tue Aug 11 09:11:09 2015 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_57 -d 0 -o 1
+bsc      18842 Tue Aug 11 09:11:12 2015 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_58 -d 0 -o 1
+root     18932 Tue Aug 11 09:11:14 2015 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_58 -d 0 -o 1
+bsc      19082 Tue Aug 11 09:11:17 2015 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_59 -d 0 -o 1
+root     19223 Tue Aug 11 09:11:19 2015 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_59 -d 0 -o 1
+bsc      19305 Tue Aug 11 09:11:22 2015 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_60 -d 0 -o 1
+root     19486 Tue Aug 11 09:11:24 2015 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_60 -d 0 -o 1
+bsc      19554 Tue Aug 11 09:11:27 2015 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_61 -d 0 -o 1
+root     19662 Tue Aug 11 09:11:29 2015 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_61 -d 0 -o 1
+bsc      19739 Tue Aug 11 09:11:32 2015 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_62 -d 0 -o 1
+root     19806 Tue Aug 11 09:11:34 2015 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_62 -d 0 -o 1
+bsc      19942 Tue Aug 11 09:11:37 2015 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_63 -d 0 -o 1
+root     20037 Tue Aug 11 09:11:39 2015 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_63 -d 0 -o 1
+bsc      20129 Tue Aug 11 09:11:42 2015 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_64 -d 0 -o 1
+root     20363 Tue Aug 11 09:11:44 2015 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_64 -d 0 -o 1
+bsc      20478 Tue Aug 11 09:11:47 2015 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_65 -d 0 -o 1
+root     20619 Tue Aug 11 09:11:49 2015 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_65 -d 0 -o 1
+root     20625 Sat Aug 15 03:23:20 2015 [kworker/0:0]
+bsc      20699 Tue Aug 11 09:11:52 2015 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_66 -d 0 -o 1
+root     20700 Wed Aug 19 00:00:01 2015 /usr/bin/nmon -x
+root     20743 Tue Aug 11 09:11:54 2015 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_66 -d 0 -o 1
+bsc      20850 Tue Aug 11 09:11:57 2015 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_67 -d 0 -o 1
+root     20958 Tue Aug 11 09:11:59 2015 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_67 -d 0 -o 1
+bsc      21007 Tue Aug 11 09:12:02 2015 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_68 -d 0 -o 1
+root     21221 Tue Aug 11 09:12:04 2015 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_68 -d 0 -o 1
+bsc      21320 Tue Aug 11 09:12:07 2015 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_69 -d 0 -o 1
+root     21414 Tue Aug 11 09:12:09 2015 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_69 -d 0 -o 1
+bsc      21542 Tue Aug 11 09:12:12 2015 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_70 -d 0 -o 1
+root     21631 Tue Aug 11 09:12:14 2015 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_70 -d 0 -o 1
+bsc      21779 Tue Aug 11 09:12:17 2015 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_71 -d 0 -o 1
+root     21923 Tue Aug 11 09:12:19 2015 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_71 -d 0 -o 1
+bsc      21979 Tue Aug 11 09:12:22 2015 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_72 -d 0 -o 1
+root     22187 Tue Aug 11 09:12:24 2015 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_72 -d 0 -o 1
+bsc      22251 Tue Aug 11 09:12:27 2015 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_73 -d 0 -o 1
+root     22370 Tue Aug 11 09:12:29 2015 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_73 -d 0 -o 1
+bsc      22441 Tue Aug 11 09:12:32 2015 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_74 -d 0 -o 1
+root     22483 Tue Aug 11 09:12:34 2015 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_74 -d 0 -o 1
+bsc      22638 Tue Aug 11 09:12:37 2015 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_75 -d 0 -o 1
+root     22719 Tue Aug 11 09:12:39 2015 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_75 -d 0 -o 1
+bsc      22818 Tue Aug 11 09:12:42 2015 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_76 -d 0 -o 1
+root     23040 Tue Aug 11 09:12:44 2015 /u40/apps/bsc/software/BSC/bsc/bin/plc_driver -t PDC_1800_06_76 -d 0 -o 1
+bsc      23172 Tue Aug 11 09:12:47 2015 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_77 -d 0 -o 1
+bsc      23349 Tue Aug 11 09:12:49 2015 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_78 -d 0 -o 1
+bsc      24095 Mon Aug 17 13:06:39 2015 /u40/apps/bsc/software/BSC/bsc/bin/bas_driver -t BDC_1800_05_21 -d 0 -o 1
+root     24388 Tue Aug 11 23:06:53 2015 /u50/app/vi/amon_24.4/bin/./wrapper /u50/app/vi/amon_24.4/bin/../conf/wrapper.conf wrapper.syslog.ident=Amon wrapper.pidfile=/u50/app/vi/amon_24.4/bin/./Amon.pid wrapper.name=Amon wrapper.displayname=Application monitoring tool wrapper.daemonize=TRUE wrapper.lockfile=/var/lock/subsys/Amon
+root     24410 Tue Aug 11 23:06:53 2015 ../jre/bin/java -Djava.library.path=../lib -classpath ../lib/amon_weca.jar -Dwrapper.key=fHj-d2HECf4URHkiAYXyYlaB3t7DTntL -Dwrapper.port=32002 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=24388 -Dwrapper.version=3.3.1-st -Dwrapper.native_library=wrapper -Dwrapper.service=TRUE -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1 com.vanderlande.amon.Main
+root     24840 Fri Aug 14 02:28:10 2015 [kworker/19:0]
+oracle   24873 Mon Aug 10 02:12:11 2015 oraclebsct5 (LOCAL=NO)
+oracle   25751 Mon Aug 10 02:12:28 2015 oraclebsct5 (LOCAL=NO)
+oracle   26472 Mon Aug 10 02:12:47 2015 oraclebsct5 (LOCAL=NO)
+oracle   27146 Sun Aug  9 12:04:00 2015 oraclebsct5 (LOCAL=NO)
+oracle   27479 Mon Aug 10 02:13:10 2015 oraclebsct5 (LOCAL=NO)
+oracle   27635 Wed Aug 19 13:33:00 2015 ora_j001_bsct5
+oracle   28290 Mon Aug 10 02:13:28 2015 oraclebsct5 (LOCAL=NO)
+oracle   29046 Mon Aug 10 02:13:46 2015 oraclebsct5 (LOCAL=NO)
+oracle   29835 Mon Aug 10 02:14:04 2015 oraclebsct5 (LOCAL=NO)
+oracle   30448 Mon Aug 10 02:14:22 2015 oraclebsct5 (LOCAL=NO)
+oracle   30601 Wed Aug 12 11:33:36 2015 ora_s001_bsct5
+root     32010 Sat Aug  8 12:06:30 2015 sbd: inquisitor                                                                                                                     
+root     32014 Sat Aug  8 12:06:30 2015 sbd: watcher: /dev/disk/by-id/scsi-xp02a-sbd - slot: 0                                                                              
+root     32015 Sat Aug  8 12:06:30 2015 sbd: watcher: /dev/disk/by-id/scsi-xp02b-sbd - slot: 0                                                                              
+root     32016 Sat Aug  8 12:06:30 2015 sbd: watcher: /dev/disk/by-id/scsi-msa001c-sbd - slot: 0                                                                            
+root     32017 Sat Aug  8 12:06:30 2015 sbd: watcher: Pacemaker                                                                                                             
+root     32049 Sat Aug  8 12:06:31 2015 /usr/sbin/corosync
+root     32055 Sat Aug  8 12:06:31 2015 /usr/lib64/heartbeat/stonithd
+90       32056 Sat Aug  8 12:06:31 2015 /usr/lib64/heartbeat/cib
+root     32057 Sat Aug  8 12:06:31 2015 /usr/lib64/heartbeat/lrmd
+90       32058 Sat Aug  8 12:06:31 2015 /usr/lib64/heartbeat/attrd
+90       32059 Sat Aug  8 12:06:31 2015 /usr/lib64/heartbeat/pengine
+90       32060 Sat Aug  8 12:06:31 2015 /usr/lib64/heartbeat/crmd
+root     32061 Sat Aug  8 12:06:31 2015 /usr/lib64/heartbeat/mgmtd
+root     33145 Wed Aug 19 12:09:28 2015 [kworker/6:2]
+oracle   33329 Wed Aug 19 13:56:00 2015 ora_j004_bsct5
+oracle   33764 Mon Aug 10 02:14:45 2015 oraclebsct5 (LOCAL=NO)
+root     33765 Sat Aug  8 12:08:22 2015 [md10_raid1]
+root     33766 Sat Aug  8 12:08:22 2015 /sbin/udevd --daemon
+root     33835 Sat Aug  8 12:08:22 2015 [md11_raid1]
+root     33836 Sat Aug  8 12:08:22 2015 /sbin/udevd --daemon
+root     33903 Sat Aug  8 12:08:23 2015 [md12_raid1]
+root     33969 Sat Aug  8 12:08:23 2015 [md13_raid1]
+root     34037 Sat Aug  8 12:08:23 2015 [md14_raid1]
+root     34106 Sat Aug  8 12:08:23 2015 [md15_raid1]
+root     34148 Sun Aug 16 10:49:24 2015 [kworker/18:0]
+root     34180 Sat Aug  8 12:08:23 2015 [md40_raid1]
+root     34246 Sat Aug  8 12:08:23 2015 [md41_raid1]
+root     34418 Sat Aug  8 12:08:32 2015 [kjournald]
+root     34545 Sat Aug  8 12:08:34 2015 [flush-9:10]
+oracle   34616 Mon Aug 10 02:15:03 2015 oraclebsct5 (LOCAL=NO)
+root     34653 Sat Aug  8 12:08:44 2015 [kjournald]
+root     34760 Sat Aug  8 12:08:45 2015 [kjournald]
+root     34906 Sat Aug  8 12:08:46 2015 [kjournald]
+root     35003 Sat Aug  8 12:08:46 2015 [kjournald]
+root     35095 Sat Aug  8 12:08:47 2015 [kjournald]
+root     35115 Sat Aug  8 12:08:47 2015 [flush-9:11]
+root     35117 Sat Aug  8 12:08:47 2015 [flush-9:12]
+root     35119 Sat Aug  8 12:08:47 2015 [flush-9:13]
+root     35120 Sat Aug  8 12:08:47 2015 [flush-9:14]
+oracle   35360 Mon Aug 10 02:15:24 2015 oraclebsct5 (LOCAL=NO)
+root     35517 Sat Aug  8 12:08:58 2015 [kjournald]
+root     35620 Sat Aug  8 12:09:00 2015 [flush-9:40]
+root     35930 Sat Aug  8 12:09:12 2015 [kjournald]
+oracle   36187 Mon Aug 10 02:15:43 2015 oraclebsct5 (LOCAL=NO)
+root     36459 Sat Aug  8 12:09:15 2015 [flush-9:41]
+oracle   37116 Mon Aug 10 02:16:02 2015 oraclebsct5 (LOCAL=NO)
+root     37808 Fri Aug 14 01:06:32 2015 [kworker/18:2]
+oracle   38175 Mon Aug 10 02:16:26 2015 oraclebsct5 (LOCAL=NO)
+root     38682 Wed Aug 19 13:58:07 2015 [kworker/u:0]
+oracle   39012 Mon Aug 10 02:16:48 2015 oraclebsct5 (LOCAL=NO)
+oracle   40003 Mon Aug 10 02:17:12 2015 oraclebsct5 (LOCAL=NO)
+root     40885 Mon Aug 10 10:09:27 2015 rpc.statd --no-notify
+root     40931 Mon Aug 10 10:09:27 2015 [rpciod]
+root     40934 Mon Aug 10 10:09:27 2015 [nfsiod]
+oracle   40964 Wed Aug 19 13:59:01 2015 ora_j003_bsct5
+root     42162 Sat Aug  8 12:10:08 2015 kissd -d
+oracle   42843 Wed Aug 19 00:07:44 2015 ora_s005_bsct5
+postfix  43358 Wed Aug 19 12:34:14 2015 pickup -l -t fifo -u
+oracle   51958 Wed Aug 19 14:02:23 2015 ora_w001_bsct5
+root     54065 Wed Aug 19 14:03:11 2015 [kworker/u:2]
+oracle   55472 Sun Aug  9 02:47:27 2015 ora_pmon_bsct5
+oracle   55597 Sun Aug  9 02:47:30 2015 ora_psp0_bsct5
+oracle   55664 Sun Aug  9 02:47:31 2015 ora_vktm_bsct5
+oracle   55671 Sun Aug  9 02:47:31 2015 ora_gen0_bsct5
+oracle   55676 Sun Aug  9 02:47:31 2015 ora_diag_bsct5
+oracle   55681 Sun Aug  9 02:47:31 2015 ora_dbrm_bsct5
+oracle   55686 Sun Aug  9 02:47:31 2015 ora_dia0_bsct5
+oracle   55691 Sun Aug  9 02:47:31 2015 ora_mman_bsct5
+oracle   55697 Sun Aug  9 02:47:31 2015 ora_dbw0_bsct5
+oracle   55739 Sun Aug  9 02:47:31 2015 ora_dbw1_bsct5
+oracle   55744 Sun Aug  9 02:47:31 2015 ora_dbw2_bsct5
+oracle   55749 Sun Aug  9 02:47:31 2015 ora_lgwr_bsct5
+oracle   55754 Sun Aug  9 02:47:31 2015 ora_ckpt_bsct5
+oracle   55759 Sun Aug  9 02:47:31 2015 ora_smon_bsct5
+oracle   55764 Sun Aug  9 02:47:31 2015 ora_reco_bsct5
+oracle   55780 Sun Aug  9 02:47:31 2015 ora_mmon_bsct5
+oracle   55785 Sun Aug  9 02:47:31 2015 ora_mmnl_bsct5
+oracle   55790 Sun Aug  9 02:47:31 2015 ora_d000_bsct5
+oracle   55795 Sun Aug  9 02:47:31 2015 ora_s000_bsct5
+oracle   56021 Wed Aug 19 13:42:23 2015 ora_w000_bsct5
+root     56063 Wed Aug 19 14:03:59 2015 sshd: bsc [priv]                                   
+oracle   56083 Sun Aug  9 02:47:40 2015 ora_qmnc_bsct5
+oracle   56306 Sun Aug  9 02:47:44 2015 ora_cjq0_bsct5
+bsc      56320 Wed Aug 19 14:04:05 2015 sshd: bsc@pts/0                                    
+bsc      56327 Wed Aug 19 14:04:05 2015 -ksh
+oracle   56553 Sun Aug  9 02:47:50 2015 ora_q000_bsct5
+oracle   56558 Sun Aug  9 02:47:50 2015 ora_q001_bsct5
+oracle   57123 Sun Aug  9 02:48:04 2015 /u01/apps/oracle/product/11.2.0.2/bin/tnslsnr listener_bsct5 -inherit
+root     59547 Wed Aug 19 06:58:19 2015 [kworker/19:1]
+cm       59941 Sun Aug  9 02:49:04 2015 /u41/app/vi/CM_2.11.4.0/CM/tools/wrapper/../wrapper/wrapper /u41/app/vi/CM_2.11.4.0/CM/tools/wrapper/../../../CM_BSC_LLC/conf/wrapper.conf wrapper.syslog.ident=CM_BSC_LLC wrapper.pidfile=/u41/app/vi/CM_2.11.4.0/data/wrapper/CM_BSC_LLC.pid wrapper.name=CM_BSC_LLC wrapper.displayname=CM_BSC_LLC wrapper.daemonize=TRUE
+cm       59944 Sun Aug  9 02:49:04 2015 /u41/app/vi/jre1.6.0_20/bin/java -Dweblogic.MaxMessageSize=20000000 -Dorg.mortbay.io.nio.BUSY_PAUSE=0 -Dcm.instance=CM_BSC_LLC -Djava.security.egd=file:/dev/./urandom -Dnetworkaddress.cache.ttl=-1 -Dcm.logdir=/u41/app/vi/CM_2.11.4.0/logs/CM_BSC_LLC -Doracle.jdbc.ReadTimeout=1800000 -Xms128m -Xmx512m -Djava.library.path=../CM/tools/wrapper/ -classpath ../CM/tools/wrapper/wrapper.jar:../CM/lib/jmxri.jar:../CM/lib/sonic_Channel.jar:../CM/lib/sonic_Client.jar:../CM/lib/sonic_tracing.jar:../CM/lib/cm.jar:../CM/lib/httpcore-4.2.1.jar:../CM/lib/cm-weca.jar:../CM/lib/saxpath.jar:../CM/lib/MQPluggableAuthentication.jar:../CM/lib/sonic_ASPI.jar:../CM/lib/fscontext.jar:../CM/lib/xstream-1.0.2.jar:../CM/lib/jaxen-core.jar:../CM/lib/sonic_Client_ext.jar:../CM/lib/sdf.jar:../CM/lib/sonic_SSL.jar:../CM/lib/commons-lang3-3.1.jar:../CM/lib/sonic_Selector.jar:../CM/lib/xalan.jar:../CM/lib/activemq-core-5.5.1.jar:../CM/lib/commons-codec-1.6.jar:../CM/lib/apache-mime4j-0.6.jar:../CM/lib/sonic_Crypto.jar:../CM/lib/servlet-api-2.5-20081211.jar:../CM/lib/slf4j-log4j12-1.5.6.jar:../CM/lib/commons-lang-2.5.jar:../CM/lib/jdom-1.1.1.cm_patch.jar:../CM/lib/commons-io-2.2.jar:../CM/lib/jms.jar:../CM/lib/jetty-util-6.1.25.jar:../CM/lib/jetty-6.1.25.jar:../CM/lib/resolver.jar:../CM/lib/servlet.jar:../CM/lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar:../CM/lib/ojdbc6.jar:../CM/lib/commons-logging-1.1.1.jar:../CM/lib/activation.jar:../CM/lib/smq_tools.jar:../CM/lib/aspectjweaver.jar:../CM/lib/jaxen-jdom.jar:../CM/lib/mfcontext.jar:../CM/lib/xercesImpl.jar:../CM/lib/smc.jar:../CM/lib/sonic_XA.jar:../CM/lib/log4j-1.2.16.jar:../CM/lib/httpclient-4.2.1.jar:../CM/lib/imq.jar:../CM/lib/slf4j-api-1.5.6.jar:../CM/lib/snmp4j-1.10.1.jar:../CM/lib/sonic_XMessage.jar:../CM/lib/js.jar:../CM/lib/sonic_SF.jar:../CM/lib/aspectjrt.jar:../CM_BSC_LLC/lib/weca_bsc.jar -Dwrapper.key=9BT9qlJAl1QOliWmhcQQObth8ntirQPN -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=59941 -Dwrapper.version=3.3.1-st -Dwrapper.native_library=wrapper -Dwrapper.service=TRUE -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1 org.tanukisoftware.wrapper.WrapperSimpleApp com.vanderlande.weca.cm.core.CmMain
+cm       60158 Sun Aug  9 02:49:06 2015 /u41/app/vi/CM_2.11.4.0/CM/tools/wrapper/../wrapper/wrapper /u41/app/vi/CM_2.11.4.0/CM/tools/wrapper/../../../CM_BSC_HLC/conf/wrapper.conf wrapper.syslog.ident=CM_BSC_HLC wrapper.pidfile=/u41/app/vi/CM_2.11.4.0/data/wrapper/CM_BSC_HLC.pid wrapper.name=CM_BSC_HLC wrapper.displayname=CM_BSC_HLC wrapper.daemonize=TRUE
+cm       60192 Sun Aug  9 02:49:06 2015 /u41/app/vi/jre1.6.0_20/bin/java -Dweblogic.MaxMessageSize=20000000 -Dorg.mortbay.io.nio.BUSY_PAUSE=0 -Dcm.instance=CM_BSC_HLC -Djava.security.egd=file:/dev/./urandom -Dnetworkaddress.cache.ttl=-1 -Dcm.logdir=/u41/app/vi/CM_2.11.4.0/logs/CM_BSC_HLC -Doracle.jdbc.ReadTimeout=1800000 -Xms128m -Xmx512m -Djava.library.path=../CM/tools/wrapper/ -classpath ../CM/tools/wrapper/wrapper.jar:../CM/lib/jmxri.jar:../CM/lib/sonic_Channel.jar:../CM/lib/sonic_Client.jar:../CM/lib/sonic_tracing.jar:../CM/lib/cm.jar:../CM/lib/httpcore-4.2.1.jar:../CM/lib/cm-weca.jar:../CM/lib/saxpath.jar:../CM/lib/MQPluggableAuthentication.jar:../CM/lib/sonic_ASPI.jar:../CM/lib/fscontext.jar:../CM/lib/xstream-1.0.2.jar:../CM/lib/jaxen-core.jar:../CM/lib/sonic_Client_ext.jar:../CM/lib/sdf.jar:../CM/lib/sonic_SSL.jar:../CM/lib/commons-lang3-3.1.jar:../CM/lib/sonic_Selector.jar:../CM/lib/xalan.jar:../CM/lib/activemq-core-5.5.1.jar:../CM/lib/commons-codec-1.6.jar:../CM/lib/apache-mime4j-0.6.jar:../CM/lib/sonic_Crypto.jar:../CM/lib/servlet-api-2.5-20081211.jar:../CM/lib/slf4j-log4j12-1.5.6.jar:../CM/lib/commons-lang-2.5.jar:../CM/lib/jdom-1.1.1.cm_patch.jar:../CM/lib/commons-io-2.2.jar:../CM/lib/jms.jar:../CM/lib/jetty-util-6.1.25.jar:../CM/lib/jetty-6.1.25.jar:../CM/lib/resolver.jar:../CM/lib/servlet.jar:../CM/lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar:../CM/lib/ojdbc6.jar:../CM/lib/commons-logging-1.1.1.jar:../CM/lib/activation.jar:../CM/lib/smq_tools.jar:../CM/lib/aspectjweaver.jar:../CM/lib/jaxen-jdom.jar:../CM/lib/mfcontext.jar:../CM/lib/xercesImpl.jar:../CM/lib/smc.jar:../CM/lib/sonic_XA.jar:../CM/lib/log4j-1.2.16.jar:../CM/lib/httpclient-4.2.1.jar:../CM/lib/imq.jar:../CM/lib/slf4j-api-1.5.6.jar:../CM/lib/snmp4j-1.10.1.jar:../CM/lib/sonic_XMessage.jar:../CM/lib/js.jar:../CM/lib/sonic_SF.jar:../CM/lib/aspectjrt.jar:../CM_BSC_HLC/lib/weca_bsc.jar -Dwrapper.key=wvbtmz4oF7RtLRWQafziWrrTHEQ9O6EA -Dwrapper.port=32001 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=60158 -Dwrapper.version=3.3.1-st -Dwrapper.native_library=wrapper -Dwrapper.service=TRUE -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1 org.tanukisoftware.wrapper.WrapperSimpleApp com.vanderlande.weca.cm.core.CmMain
+oracle   62173 Tue Aug 18 12:27:57 2015 ora_s003_bsct5
+oracle   63369 Wed Aug 19 14:05:47 2015 ora_w002_bsct5
+oracle   63954 Wed Aug 19 14:06:02 2015 ora_j005_bsct5
+oracle   63959 Wed Aug 19 14:06:03 2015 ora_j006_bsct5
+oracle   63964 Wed Aug 19 14:06:03 2015 ora_j007_bsct5
+bsc      64171 Wed Aug 19 14:06:08 2015 ps -eo user,pid,lstart,command
+root     64354 Sat Aug 15 12:10:17 2015 [kworker/0:1]
+bsc      64973 Mon Aug 10 01:42:56 2015 pmand -f /u40/apps/bsc/software/BSC/bsc/run/bsc/data/process.db -l bsc_24_4_0_0 -p bsc_24_4_0_0@bsct5 -a  Process Manager BSC 24_4_0_0 for site -m -o 1 -d 1
+oracle   64978 Mon Aug 10 01:42:56 2015 oraclebsct5 (LOCAL=NO)
+bsc      65402 Mon Aug 10 01:43:03 2015 /u40/apps/bsc/software/BSC/bsc/bin/msg_disp -t DSP_1800_03_01 -d 0 -s 1 -l
+bsc      65427 Mon Aug 10 01:43:05 2015 /u40/apps/bsc/software/BSC/bsc/bin/msg_log -t LOG_1800_03_02 -d 0 -p /u40/apps/bsc/software/BSC/bsc/run/bsc/log/msg
